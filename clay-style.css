@@ -4,6 +4,5 @@ body {
 }
 
 h1 {
-  line-height: 30px;
-  background-image: repeating-linear-gradient(180deg, transparent, transparent 19px, #333 21px);
+  background-image: repeating-linear-gradient(180deg, transparent, transparent 19px, #000 20px);
 }
