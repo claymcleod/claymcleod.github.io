@@ -2,3 +2,8 @@ body {
   font-family: "Source Sans Pro";
   margin: 5% 20%;
 }
+
+h1 {
+  line-height: 30px;
+  background-image: repeating-linear-gradient(180deg, transparent, transparent 19px, #333 21px);
+}
