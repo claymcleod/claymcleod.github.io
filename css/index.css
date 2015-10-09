@@ -2,3 +2,7 @@ body {
   font-family: "Source Sans Pro";
   margin: 5% 20%;
 }
+
+a {
+  text-decoration: none;
+}
