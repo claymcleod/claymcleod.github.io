@@ -1,0 +1,26 @@
+Name,Fantasy Points (Rushing),Fantasy Points (Receiving),Fumbles,Fantasy Points (Total)
+DeMarco Murray,133.3,15.9,4,141.2
+Matt Forte,62.8,55.6,1,116.4
+Arian Foster,81.3,13.1,1,92.4
+Marshawn Lynch,58.5,32.5,0,91.0
+Jamaal Charles,41.0,17.5,1,56.5
+Le'Veon Bell,60.2,25.1,0,85.3
+LeSean McCoy,48.2,7.4,2,51.6
+Andre Ellington,45.3,32.0,1,75.3
+Lamar Miller,63.1,17.5,3,74.6
+Ben Tate,39.9,-0.4,0,39.5
+Giovani Bernard,64.1,17.7,0,81.8
+Joique Bell,45.4,11.5,2,52.9
+Eddie Lacy,60.9,8.6,2,65.5
+Ronnie Hillman,36.0,5.2,1,39.2
+Ahmad Bradshaw,39.6,57.2,2,92.8
+Justin Forsett,68.3,11.8,0,80.1
+Branden Oliver,43.6,19.5,0,63.1
+Jerick McKinnon,30.9,9.3,0,40.2
+Shane Vereen,31.9,30.5,0,62.4
+Alfred Morris,62.0,3.9,2,61.9
+Christopher Ivory,61.2,10.3,0,71.5
+Tre Mason,18.5,1.2,1,17.7
+Darren McFadden,39.9,8.8,0,48.7
+Reggie Bush,23.1,16.4,0,39.5
+Doug Martin,19.9,5.5,0,25.4

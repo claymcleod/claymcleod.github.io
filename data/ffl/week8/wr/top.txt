@@ -1,0 +1,213 @@
+Teams sorted by %% of their passing offensive plays:
+
+Team - Percentage
+
+1. OAK              - 65.9574%
+
+2. ATL              - 61.9792%
+
+3. NO               - 61.9318%
+
+4. TB               - 60.4585%
+
+5. JAC              - 60.3825%
+
+6. WAS              - 59.5300%
+
+7. CHI              - 58.6735%
+
+8. DEN              - 58.0547%
+
+9. STL              - 57.8947%
+
+10. PHI             - 57.8049%
+
+11. CAR             - 57.4359%
+
+12. IND             - 57.3913%
+
+13. ARI             - 57.2347%
+
+14. MIA             - 55.8559%
+
+15. BUF             - 55.7592%
+
+16. BAL             - 55.5556%
+
+17. GB              - 54.8023%
+
+18. NYJ             - 54.6632%
+
+19. PIT             - 54.4335%
+
+20. DET             - 53.8071%
+
+21. TEN             - 53.2394%
+
+22. NE              - 53.0713%
+
+23. MIN             - 52.6042%
+
+24. CIN             - 51.1182%
+
+25. SD              - 50.1253%
+
+26. KC              - 49.6855%
+
+27. NYG             - 49.4975%
+
+28. SEA             - 47.9452%
+
+29. SF              - 47.7041%
+
+30. DAL             - 47.6309%
+
+31. CLE             - 46.7290%
+
+32. HOU             - 45.4802%
+
+-------------
+
+Top 15 people who catch a pass on any given pass by their team (%):
+
+Player - Percentage
+
+1. Jordy Nelson     - 22.1649%
+
+2. Andre Johnson    - 21.1180%
+
+3. Matt Forte       - 20.0000%
+
+4. Dez Bryant       - 18.8482%
+
+5. Antonio Brown    - 18.5520%
+
+6. Julian Edelman   - 18.5185%
+
+7. Julio Jones      - 18.4874%
+
+8. Emmanuel Sanders - 18.3246%
+
+9. Golden Tate      - 17.9245%
+
+10. Anquan Boldin   - 17.1123%
+
+11. Mohamed Sanu    - 16.8750%
+
+12. Demaryius Thomas- 16.2304%
+
+13. Andrew Hawkins  - 16.0000%
+
+14. Steve Smith     - 15.9091%
+
+15. Percy Harvin    - 15.7143%
+
+-------------
+
+Top 15 people who will catch a pass on any given offensive play by their team (%):
+
+Player - Percentage
+
+1. Jordy Nelson     - 12.1469%
+
+2. Matt Forte       - 11.7347%
+
+3. Julio Jones      - 11.4583%
+
+4. Emmanuel Sanders - 10.6383%
+
+5. Antonio Brown    - 10.0985%
+
+6. Julian Edelman   - 9.8280%
+
+7. Jimmy Graham     - 9.6591%
+
+8. Golden Tate      - 9.6447%
+
+9. Andre Johnson    - 9.6045%
+
+10. Demaryius Thomas- 9.4225%
+
+11. James Jones     - 9.2199%
+
+12. Martellus Bennett- 9.1837%
+
+13. Brandin Cooks   - 9.0909%
+
+14. Dez Bryant      - 8.9776%
+
+15. Steve Smith     - 8.8384%
+
+-------------
+
+Top 15 people who will score a receiving touchdown on any given pass by their team (%):
+
+Player - Percentage
+
+1. Julius Thomas    - 4.7120%
+
+2. Randall Cobb     - 3.6082%
+
+3. Antonio Gates    - 3.0000%
+
+4. Terrance Williams- 2.6178%
+
+5. Jordy Nelson     - 2.5773%
+
+6. Eddie Royal      - 2.5000%
+
+7. Antonio Brown    - 2.2624%
+
+8. Greg Olsen       - 2.2321%
+
+9. Brandon Marshall - 2.1739%
+
+10. Mike Wallace    - 2.1505%
+
+11. Marshawn Lynch  - 2.1429%
+
+12. Demaryius Thomas- 2.0942%
+
+13. Dez Bryant      - 2.0942%
+
+14. Larry Donnell   - 2.0305%
+
+15. Travis Benjamin - 2.0000%
+
+-------------
+
+Top 15 people who will score a receiving touchdown on any given offensive play by their team (%):
+
+Player - Percentage
+
+1. Julius Thomas    - 2.7356%
+
+2. Randall Cobb     - 1.9774%
+
+3. Antonio Gates    - 1.5038%
+
+4. Jordy Nelson     - 1.4124%
+
+5. Greg Olsen       - 1.2821%
+
+6. Brandon Marshall - 1.2755%
+
+7. Eddie Royal      - 1.2531%
+
+8. Terrance Williams- 1.2469%
+
+9. Antonio Brown    - 1.2315%
+
+10. Demaryius Thomas- 1.2158%
+
+11. Mike Wallace    - 1.2012%
+
+12. Ahmad Bradshaw  - 1.0870%
+
+13. James Jones     - 1.0638%
+
+14. Andre Holmes    - 1.0638%
+
+15. Marshawn Lynch  - 1.0274%
+
+-------------

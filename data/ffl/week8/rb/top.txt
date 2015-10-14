@@ -1,0 +1,213 @@
+Teams sorted by %% of their rushing offensive plays:
+
+Team - Percentage
+
+1. HOU              - 51.6949%
+
+2. CLE              - 51.4019%
+
+3. DAL              - 49.8753%
+
+4. SF               - 48.9796%
+
+5. SEA              - 48.2877%
+
+6. CIN              - 48.2428%
+
+7. SD               - 47.6190%
+
+8. NYG              - 46.7337%
+
+9. KC               - 46.2264%
+
+10. NE              - 43.7346%
+
+11. BAL             - 42.6768%
+
+12. TEN             - 41.9718%
+
+13. MIN             - 41.6667%
+
+14. NYJ             - 41.4508%
+
+15. PIT             - 41.3793%
+
+16. MIA             - 41.1411%
+
+17. GB              - 40.9605%
+
+18. DET             - 40.8629%
+
+19. BUF             - 40.8377%
+
+20. IND             - 40.6522%
+
+21. PHI             - 40.4878%
+
+22. DEN             - 40.1216%
+
+23. ARI             - 39.5498%
+
+24. CAR             - 39.4872%
+
+25. WAS             - 37.5979%
+
+26. CHI             - 37.5000%
+
+27. STL             - 37.4269%
+
+28. NO              - 36.6477%
+
+29. TB              - 35.5301%
+
+30. ATL             - 35.4167%
+
+31. OAK             - 32.6241%
+
+32. JAC             - 32.2404%
+
+-------------
+
+Top 15 people who might rush on any given rush by their team (%):
+
+Player - Percentage
+
+1. DeMarco Murray   - 79.5000%
+
+2. LeSean McCoy     - 69.8795%
+
+3. Alfred Morris    - 67.3611%
+
+4. Matt Forte       - 67.3469%
+
+5. Andre Ellington  - 65.8537%
+
+6. Darren McFadden  - 64.1304%
+
+7. Le'Veon Bell     - 62.5000%
+
+8. Arian Foster     - 57.9235%
+
+9. Giovani Bernard  - 56.9536%
+
+10. Marshawn Lynch  - 56.0284%
+
+11. Eddie Lacy      - 55.1724%
+
+12. Stevan Ridley   - 52.8090%
+
+13. Steven Jackson  - 50.7353%
+
+14. Knile Davis     - 49.6599%
+
+15. Rashad Jennings - 48.9247%
+
+-------------
+
+Top 15 people who might rush on any given offensive play by their team (%):
+
+Player - Percentage
+
+1. DeMarco Murray   - 39.6509%
+
+2. Arian Foster     - 29.9435%
+
+3. LeSean McCoy     - 28.2927%
+
+4. Giovani Bernard  - 27.4760%
+
+5. Marshawn Lynch   - 27.0548%
+
+6. Andre Ellington  - 26.0450%
+
+7. Le'Veon Bell     - 25.8621%
+
+8. Alfred Morris    - 25.3264%
+
+9. Matt Forte       - 25.2551%
+
+10. Frank Gore      - 23.7245%
+
+11. Stevan Ridley   - 23.0958%
+
+12. Knile Davis     - 22.9560%
+
+13. Rashad Jennings - 22.8643%
+
+14. Eddie Lacy      - 22.5989%
+
+15. Darren McFadden - 20.9220%
+
+-------------
+
+Top 15 people who will score a rushing touchdown on any given rush by their team (%):
+
+Player - Percentage
+
+1. DeMarco Murray   - 3.0000%
+
+2. Arian Foster     - 2.7322%
+
+3. Giovani Bernard  - 2.6490%
+
+4. Isaiah Crowell   - 2.4242%
+
+5. Mark Ingram      - 2.3256%
+
+6. Lamar Miller     - 2.1898%
+
+7. Marshawn Lynch   - 2.1277%
+
+8. Alfred Morris    - 2.0833%
+
+9. Eddie Lacy       - 2.0690%
+
+10. Knile Davis     - 2.0408%
+
+11. Jeremy Hill     - 1.9868%
+
+12. Matt Asiata     - 1.8750%
+
+13. Darren Sproles  - 1.8072%
+
+14. Justin Forsett  - 1.7751%
+
+15. Josh McCown     - 1.6129%
+
+-------------
+
+Top 15 people who will score a rushing touchdown on any given offensive play by their team (%):
+
+Player - Percentage
+
+1. DeMarco Murray   - 1.4963%
+
+2. Arian Foster     - 1.4124%
+
+3. Giovani Bernard  - 1.2780%
+
+4. Isaiah Crowell   - 1.2461%
+
+5. Marshawn Lynch   - 1.0274%
+
+6. Jeremy Hill      - 0.9585%
+
+7. Knile Davis      - 0.9434%
+
+8. Lamar Miller     - 0.9009%
+
+9. Mark Ingram      - 0.8523%
+
+10. Eddie Lacy      - 0.8475%
+
+11. Alfred Morris   - 0.7833%
+
+12. Matt Asiata     - 0.7812%
+
+13. Justin Forsett  - 0.7576%
+
+14. Darren Sproles  - 0.7317%
+
+15. Russell Wilson  - 0.6849%
+
+-------------

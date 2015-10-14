@@ -1,0 +1,418 @@
+# QB DPS Rankings
+
+
+<div style="font-size:0.75em">
+<table id="example" class="display" cellspacing="0" width="100%">
+<thead>
+<tr><td>Rank</td><td>Player</td><td>DPS</td><td>DPS Adjusted</td><td>(S)leeper/(D)ump</td></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Andrew Luck</td><td><font color="#FF0000">-1.83</font></td><td><font color="#FF8300">-0.15</font></td><td> </td></tr>
+<tr><td>2</td><td>Aaron Rodgers</td><td><font color="#9B30FF">3.06</font></td><td><font color="#32CD32">0.26</font></td><td> </td></tr>
+<tr><td>3</td><td>Peyton Manning</td><td><font color="#32CD32">1.9</font></td><td><font color="#32CD32">0.16</font></td><td> </td></tr>
+<tr><td>4</td><td>Drew Brees</td><td><font color="#32CD32">1.55</font></td><td><font color="#32CD32">0.13</font></td><td> </td></tr>
+<tr><td>5</td><td>Russell Wilson</td><td><font color="#FF8300">0.0</font></td><td><font color="#FF8300">0.0</font></td><td> </td></tr>
+<tr><td>6</td><td>Ben Roethlisberger</td><td><font color="#FF8300">-1.81</font></td><td><font color="#FF8300">-0.15</font></td><td> </td></tr>
+<tr><td>7</td><td>Tom Brady</td><td><font color="#32CD32">1.53</font></td><td><font color="#32CD32">0.13</font></td><td> </td></tr>
+<tr><td>8</td><td>Philip Rivers</td><td><font color="#FF8300">-1.26</font></td><td><font color="#FF8300">-0.1</font></td><td> </td></tr>
+<tr><td>9</td><td>Ryan Tannehill</td><td><font color="#FF8300">0.0</font></td><td><font color="#FF8300">0.0</font></td><td> </td></tr>
+<tr><td>10</td><td>Matt Ryan</td><td><font color="#FF8300">-0.89</font></td><td><font color="#FF8300">-0.07</font></td><td> </td></tr>
+<tr><td>11</td><td>Jay Cutler</td><td><font color="#32CD32">1.43</font></td><td><font color="#32CD32">0.12</font></td><td> </td></tr>
+<tr><td>12</td><td>Joe Flacco</td><td><font color="#FF0000">-2.94</font></td><td><font color="#FF0000">-0.25</font></td><td> </td></tr>
+<tr><td>13</td><td>Matthew Stafford</td><td><font color="#9B30FF">2.71</font></td><td><font color="#32CD32">0.23</font></td><td> </td></tr>
+<tr><td>14</td><td>Eli Manning</td><td><font color="#FF8300">-0.32</font></td><td><font color="#FF8300">-0.03</font></td><td> </td></tr>
+<tr><td>15</td><td>Colin Kaepernick</td><td><font color="#32CD32">0.34</font></td><td><font color="#FF8300">0.03</font></td><td> </td></tr>
+<tr><td>16</td><td>Tony Romo</td><td><font color="#9B30FF">5.31</font></td><td><font color="#9B30FF">0.48</font></td><td> </td></tr>
+<tr><td>17</td><td>Cam Newton</td><td><font color="#32CD32">1.42</font></td><td><font color="#32CD32">0.13</font></td><td> </td></tr>
+<tr><td>18</td><td>Alex Smith</td><td><font color="#FF0000">-2.52</font></td><td><font color="#FF0000">-0.21</font></td><td> </td></tr>
+<tr><td>19</td><td>Andy Dalton</td><td><font color="#32CD32">0.55</font></td><td><font color="#32CD32">0.05</font></td><td> </td></tr>
+<tr><td>20</td><td>Ryan Fitzpatrick</td><td><font color="#FF8300">0.32</font></td><td><font color="#32CD32">0.03</font></td><td> </td></tr>
+<tr><td>21</td><td>Brian Hoyer</td><td><font color="#FF8300">-0.94</font></td><td><font color="#FF8300">-0.08</font></td><td> </td></tr>
+<tr><td>22</td><td>Blake Bortles</td><td><font color="#FF0000">-2.04</font></td><td><font color="#FF0000">-0.2</font></td><td> </td></tr>
+<tr><td>23</td><td>Kyle Orton</td><td><font color="#FF8300">-0.35</font></td><td><font color="#FF8300">-0.04</font></td><td> </td></tr>
+<tr><td>24</td><td>Teddy Bridgewater</td><td><font color="#32CD32">0.32</font></td><td><font color="#32CD32">0.04</font></td><td> </td></tr>
+<tr><td>25</td><td>Josh McCown</td><td><font color="#FF8300">-1.45</font></td><td><font color="#FF0000">-0.21</font></td><td> </td></tr>
+<tr><td>26</td><td>Geno Smith</td><td><font color="#FF0000">-7.49</font></td><td><font color="#FF0000">-0.75</font></td><td> </td></tr>
+<tr><td>27</td><td>Mark Sanchez</td><td><font color="#9B30FF">2.92</font></td><td><font color="#9B30FF">0.58</font></td><td> </td></tr>
+<tr><td>28</td><td>Drew Stanton</td><td><font color="#FF8300">-0.79</font></td><td><font color="#FF8300">-0.11</font></td><td> </td></tr>
+<tr><td>29</td><td>Zach Mettenberger</td><td><font color="#32CD32">0.57</font></td><td><font color="#32CD32">0.1</font></td><td> </td></tr>
+<tr><td>30</td><td>Jake Locker</td><td><font color="#FF8300">-0.29</font></td><td><font color="#FF8300">-0.06</font></td><td> </td></tr>
+<tr><td>31</td><td>Colt McCoy</td><td><font color="#32CD32">2.67</font></td><td><font color="#9B30FF">0.89</font></td><td>Sleeper</td></tr>
+<tr><td>32</td><td>Michael Vick</td><td><font color="#FF0000">-2.04</font></td><td><font color="#FF0000">-0.23</font></td><td> </td></tr>
+<tr><td>33</td><td>Shaun Hill</td><td><font color="#9B30FF">4.0</font></td><td><font color="#9B30FF">0.8</font></td><td> </td></tr>
+<tr><td>34</td><td>Johnny Manziel</td><td><font color="#32CD32">1.9</font></td><td><font color="#9B30FF">0.47</font></td><td> </td></tr>
+</tbody>
+</table>
+</div>
+
+
+# RB DPS Rankings
+
+
+<div style="font-size:0.75em">
+<table id="example" class="display" cellspacing="0" width="100%">
+<thead>
+<tr><td>Rank</td><td>Player</td><td>DPS</td><td>DPS Adjusted</td><td>(S)leeper/(D)ump</td></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>DeMarco Murray</td><td><font color="#32CD32">0.58</font></td><td><font color="#32CD32">0.05</font></td><td> </td></tr>
+<tr><td>2</td><td>Le'Veon Bell</td><td><font color="#32CD32">0.0</font></td><td><font color="#32CD32">0.0</font></td><td> </td></tr>
+<tr><td>3</td><td>Marshawn Lynch</td><td><font color="#FF8300">-1.26</font></td><td><font color="#FF8300">-0.11</font></td><td> </td></tr>
+<tr><td>4</td><td>Matt Forte</td><td><font color="#32CD32">0.82</font></td><td><font color="#32CD32">0.07</font></td><td> </td></tr>
+<tr><td>5</td><td>Arian Foster</td><td><font color="#9B30FF">2.77</font></td><td><font color="#9B30FF">0.31</font></td><td> </td></tr>
+<tr><td>6</td><td>Jamaal Charles</td><td><font color="#32CD32">0.65</font></td><td><font color="#32CD32">0.06</font></td><td> </td></tr>
+<tr><td>7</td><td>Justin Forsett</td><td><font color="#FF8300">-0.44</font></td><td><font color="#FF8300">-0.04</font></td><td> </td></tr>
+<tr><td>8</td><td>Eddie Lacy</td><td><font color="#32CD32">2.45</font></td><td><font color="#32CD32">0.2</font></td><td> </td></tr>
+<tr><td>9</td><td>Alfred Morris</td><td><font color="#FF8300">-1.44</font></td><td><font color="#FF8300">-0.12</font></td><td> </td></tr>
+<tr><td>10</td><td>LeSean McCoy</td><td><font color="#FF8300">-0.34</font></td><td><font color="#FF8300">-0.03</font></td><td> </td></tr>
+<tr><td>11</td><td>Andre Ellington</td><td><font color="#FF8300">-1.7</font></td><td><font color="#FF8300">-0.14</font></td><td> </td></tr>
+<tr><td>12</td><td>Lamar Miller</td><td><font color="#FF0000">-2.4</font></td><td><font color="#FF0000">-0.2</font></td><td> </td></tr>
+<tr><td>13</td><td>Mark Ingram</td><td><font color="#32CD32">1.62</font></td><td><font color="#32CD32">0.18</font></td><td> </td></tr>
+<tr><td>14</td><td>Jeremy Hill</td><td><font color="#FF8300">-0.49</font></td><td><font color="#FF8300">-0.04</font></td><td> </td></tr>
+<tr><td>15</td><td>Joique Bell</td><td><font color="#32CD32">0.63</font></td><td><font color="#32CD32">0.06</font></td><td> </td></tr>
+<tr><td>16</td><td>Christopher Ivory</td><td><font color="#FF0000">-3.71</font></td><td><font color="#FF0000">-0.31</font></td><td> </td></tr>
+<tr><td>17</td><td>Giovani Bernard</td><td><font color="#FF8300">-0.59</font></td><td><font color="#FF8300">-0.07</font></td><td> </td></tr>
+<tr><td>18</td><td>Rashad Jennings</td><td><font color="#32CD32">0.84</font></td><td><font color="#32CD32">0.11</font></td><td> </td></tr>
+<tr><td>19</td><td>Steven Jackson</td><td><font color="#FF0000">-2.65</font></td><td><font color="#FF0000">-0.22</font></td><td> </td></tr>
+<tr><td>20</td><td>Matt Asiata</td><td><font color="#FF0000">-4.05</font></td><td><font color="#FF0000">-0.37</font></td><td> </td></tr>
+<tr><td>21</td><td>Shane Vereen</td><td><font color="#FF0000">-2.17</font></td><td><font color="#FF8300">-0.18</font></td><td> </td></tr>
+<tr><td>22</td><td>Frank Gore</td><td><font color="#32CD32">0.54</font></td><td><font color="#32CD32">0.05</font></td><td> </td></tr>
+<tr><td>23</td><td>C.J. Anderson</td><td><font color="#9B30FF">8.55</font></td><td><font color="#9B30FF">0.78</font></td><td> </td></tr>
+<tr><td>24</td><td>Isaiah Crowell</td><td><font color="#32CD32">2.4</font></td><td><font color="#32CD32">0.2</font></td><td> </td></tr>
+<tr><td>25</td><td>Tre Mason</td><td><font color="#9B30FF">5.07</font></td><td><font color="#9B30FF">0.63</font></td><td> </td></tr>
+<tr><td>26</td><td>Fred Jackson</td><td><font color="#32CD32">0.72</font></td><td><font color="#32CD32">0.07</font></td><td> </td></tr>
+<tr><td>27</td><td>Darren Sproles</td><td><font color="#FF8300">-1.8</font></td><td><font color="#FF8300">-0.16</font></td><td> </td></tr>
+<tr><td>28</td><td>Denard Robinson</td><td><font color="#32CD32">2.07</font></td><td><font color="#32CD32">0.17</font></td><td> </td></tr>
+<tr><td>29</td><td>Trent Richardson</td><td><font color="#FF8300">-0.74</font></td><td><font color="#FF8300">-0.07</font></td><td> </td></tr>
+<tr><td>30</td><td>Branden Oliver</td><td><font color="#FF0000">-4.27</font></td><td><font color="#FF0000">-0.43</font></td><td> </td></tr>
+<tr><td>31</td><td>Bobby Rainey</td><td><font color="#FF0000">-4.95</font></td><td><font color="#FF0000">-0.41</font></td><td> </td></tr>
+<tr><td>32</td><td>Andre Williams</td><td><font color="#FF8300">-0.69</font></td><td><font color="#FF8300">-0.06</font></td><td> </td></tr>
+<tr><td>33</td><td>Terrance West</td><td><font color="#FF8300">-1.59</font></td><td><font color="#FF8300">-0.14</font></td><td> </td></tr>
+<tr><td>34</td><td>Roy Helu</td><td><font color="#FF8300">-1.84</font></td><td><font color="#FF8300">-0.15</font></td><td> </td></tr>
+<tr><td>35</td><td>Darren McFadden</td><td><font color="#FF8300">-1.41</font></td><td><font color="#FF8300">-0.12</font></td><td> </td></tr>
+<tr><td>36</td><td>Knile Davis</td><td><font color="#FF0000">-3.28</font></td><td><font color="#FF0000">-0.27</font></td><td> </td></tr>
+<tr><td>37</td><td>Chris Johnson</td><td><font color="#32CD32">0.74</font></td><td><font color="#32CD32">0.06</font></td><td> </td></tr>
+<tr><td>38</td><td>Bishop Sankey</td><td><font color="#9B30FF">3.01</font></td><td><font color="#32CD32">0.25</font></td><td> </td></tr>
+<tr><td>39</td><td>Benny Cunningham</td><td><font color="#FF0000">-2.49</font></td><td><font color="#FF0000">-0.21</font></td><td> </td></tr>
+<tr><td>40</td><td>Jonathan Stewart</td><td><font color="#9B30FF">2.8</font></td><td><font color="#9B30FF">0.31</font></td><td> </td></tr>
+<tr><td>41</td><td>Jerick McKinnon</td><td><font color="#32CD32">0.99</font></td><td><font color="#32CD32">0.09</font></td><td> </td></tr>
+<tr><td>42</td><td>LeGarrette Blount</td><td><font color="#9B30FF">3.37</font></td><td><font color="#32CD32">0.26</font></td><td> </td></tr>
+<tr><td>43</td><td>Ben Tate</td><td><font color="#FF0000">-2.99</font></td><td><font color="#FF0000">-0.33</font></td><td> </td></tr>
+<tr><td>44</td><td>Pierre Thomas</td><td><font color="#32CD32">1.81</font></td><td><font color="#32CD32">0.23</font></td><td> </td></tr>
+<tr><td>45</td><td>Alfred Blue</td><td><font color="#FF8300">-1.8</font></td><td><font color="#FF8300">-0.15</font></td><td> </td></tr>
+<tr><td>46</td><td>Jonas Gray</td><td><font color="#FF8300">-0.52</font></td><td><font color="#FF8300">-0.1</font></td><td> </td></tr>
+<tr><td>47</td><td>Lorenzo Taliaferro</td><td><font color="#FF0000">-3.82</font></td><td><font color="#FF0000">-0.32</font></td><td> </td></tr>
+<tr><td>48</td><td>Carlos Hyde</td><td><font color="#32CD32">1.56</font></td><td><font color="#32CD32">0.13</font></td><td> </td></tr>
+<tr><td>49</td><td>Ryan Mathews</td><td><font color="#9B30FF">8.41</font></td><td><font color="#9B30FF">1.68</font></td><td> </td></tr>
+<tr><td>50</td><td>Theo Riddick</td><td><font color="#32CD32">0.29</font></td><td><font color="#32CD32">0.03</font></td><td> </td></tr>
+<tr><td>51</td><td>Anthony Dixon</td><td><font color="#FF8300">-1.29</font></td><td><font color="#FF8300">-0.11</font></td><td> </td></tr>
+<tr><td>52</td><td>Zac Stacy</td><td><font color="#FF0000">-2.08</font></td><td><font color="#FF0000">-0.21</font></td><td> </td></tr>
+<tr><td>53</td><td>Robert Turbin</td><td><font color="#32CD32">0.25</font></td><td><font color="#32CD32">0.02</font></td><td> </td></tr>
+<tr><td>54</td><td>Khiry Robinson</td><td><font color="#FF0000">-3.11</font></td><td><font color="#FF0000">-0.52</font></td><td> </td></tr>
+<tr><td>55</td><td>Doug Martin</td><td><font color="#9B30FF">3.92</font></td><td><font color="#9B30FF">0.56</font></td><td> </td></tr>
+<tr><td>56</td><td>Reggie Bush</td><td><font color="#9B30FF">4.64</font></td><td><font color="#9B30FF">0.66</font></td><td> </td></tr>
+<tr><td>57</td><td>Stepfan Taylor</td><td><font color="#32CD32">1.01</font></td><td><font color="#32CD32">0.1</font></td><td> </td></tr>
+<tr><td>58</td><td>Toby Gerhart</td><td><font color="#FF8300">-1.18</font></td><td><font color="#FF8300">-0.12</font></td><td> </td></tr>
+<tr><td>59</td><td>Juwan Thompson</td><td><font color="#32CD32">0.22</font></td><td><font color="#32CD32">0.02</font></td><td> </td></tr>
+<tr><td>60</td><td>Bernard Pierce</td><td><font color="#32CD32">1.21</font></td><td><font color="#32CD32">0.13</font></td><td> </td></tr>
+<tr><td>61</td><td>Devonta Freeman</td><td><font color="#32CD32">0.16</font></td><td><font color="#32CD32">0.01</font></td><td> </td></tr>
+<tr><td>62</td><td>Jacquizz Rodgers</td><td><font color="#32CD32">0.35</font></td><td><font color="#32CD32">0.03</font></td><td> </td></tr>
+<tr><td>63</td><td>James Starks</td><td><font color="#FF8300">-0.55</font></td><td><font color="#FF8300">-0.05</font></td><td> </td></tr>
+<tr><td>64</td><td>Daniel Thomas</td><td><font color="#FF0000">-2.44</font></td><td><font color="#FF0000">-0.27</font></td><td> </td></tr>
+<tr><td>65</td><td>Travaris Cadet</td><td><font color="#FF8300">-1.49</font></td><td><font color="#FF8300">-0.12</font></td><td> </td></tr>
+<tr><td>66</td><td>Latavius Murray</td><td><font color="#9B30FF">7.52</font></td><td><font color="#9B30FF">0.68</font></td><td> </td></tr>
+<tr><td>67</td><td>Shonn Greene</td><td><font color="#FF8300">-1.1</font></td><td><font color="#FF8300">-0.11</font></td><td> </td></tr>
+<tr><td>68</td><td>Daniel Herron</td><td><font color="#9B30FF">16.15</font></td><td><font color="#9B30FF">1.35</font></td><td>Sleeper</td></tr>
+<tr><td>69</td><td>Lance Dunbar</td><td><font color="#FF0000">-2.83</font></td><td><font color="#FF0000">-0.24</font></td><td> </td></tr>
+<tr><td>70</td><td>Donald Brown</td><td><font color="#FF8300">-1.65</font></td><td><font color="#FF8300">-0.18</font></td><td> </td></tr>
+<tr><td>71</td><td>Darrel Young</td><td><font color="#FF8300">-2.03</font></td><td><font color="#FF8300">-0.17</font></td><td> </td></tr>
+<tr><td>72</td><td>Joseph Randle</td><td><font color="#FF8300">-0.78</font></td><td><font color="#FF8300">-0.07</font></td><td> </td></tr>
+<tr><td>73</td><td>DeAngelo Williams</td><td><font color="#32CD32">0.57</font></td><td><font color="#32CD32">0.1</font></td><td> </td></tr>
+<tr><td>74</td><td>Bilal Powell</td><td><font color="#FF8300">-1.17</font></td><td><font color="#FF8300">-0.11</font></td><td> </td></tr>
+<tr><td>75</td><td>Kyle Juszczyk</td><td><font color="#FF8300">-1.95</font></td><td><font color="#FF8300">-0.16</font></td><td> </td></tr>
+<tr><td>76</td><td>De'Anthony Thomas</td><td><font color="#FF8300">-1.53</font></td><td><font color="#FF8300">-0.19</font></td><td> </td></tr>
+<tr><td>77</td><td>Chris Polk</td><td><font color="#32CD32">-0.11</font></td><td><font color="#32CD32">-0.01</font></td><td> </td></tr>
+<tr><td>78</td><td>Marcel Reece</td><td><font color="#9B30FF">4.08</font></td><td><font color="#9B30FF">0.37</font></td><td> </td></tr>
+<tr><td>79</td><td>Damien Williams</td><td><font color="#FF8300">-1.71</font></td><td><font color="#FF8300">-0.14</font></td><td> </td></tr>
+<tr><td>80</td><td>Bryce Brown</td><td><font color="#32CD32">0.99</font></td><td><font color="#32CD32">0.2</font></td><td> </td></tr>
+<tr><td>81</td><td>Leon Washington</td><td><font color="#FF0000">-3.69</font></td><td><font color="#FF0000">-0.31</font></td><td> </td></tr>
+<tr><td>82</td><td>Storm Johnson</td><td><font color="#FF8300">-1.8</font></td><td><font color="#FF0000">-0.6</font></td><td> </td></tr>
+<tr><td>83</td><td>Fozzy Whittaker</td><td><font color="#FF8300">-1.09</font></td><td><font color="#FF8300">-0.18</font></td><td> </td></tr>
+<tr><td>84</td><td>Ka'Deem Carey</td><td><font color="#32CD32">-0.27</font></td><td><font color="#32CD32">-0.02</font></td><td> </td></tr>
+<tr><td>85</td><td>Jonathan Grimes</td><td><font color="#32CD32">2.0</font></td><td><font color="#32CD32">0.17</font></td><td> </td></tr>
+<tr><td>86</td><td>Jordan Todman</td><td><font color="#32CD32">-0.26</font></td><td><font color="#32CD32">-0.02</font></td><td> </td></tr>
+<tr><td>87</td><td>Maurice Jones-Drew</td><td><font color="#32CD32">1.63</font></td><td><font color="#32CD32">0.16</font></td><td> </td></tr>
+<tr><td>88</td><td>Charles Sims</td><td><font color="#9B30FF">6.84</font></td><td><font color="#9B30FF">1.71</font></td><td>Sleeper</td></tr>
+<tr><td>89</td><td>Silas Redd</td><td><font color="#FF8300">-1.5</font></td><td><font color="#FF8300">-0.15</font></td><td> </td></tr>
+<tr><td>90</td><td>John Kuhn</td><td><font color="#FF8300">-1.26</font></td><td><font color="#FF8300">-0.11</font></td><td> </td></tr>
+<tr><td>91</td><td>Anthony Sherman</td><td><font color="#FF0000">-4.64</font></td><td><font color="#FF0000">-0.39</font></td><td> </td></tr>
+<tr><td>92</td><td>Christine Michael</td><td><font color="#32CD32">1.67</font></td><td><font color="#9B30FF">0.28</font></td><td> </td></tr>
+<tr><td>93</td><td>Marion Grice</td><td><font color="#9B30FF">5.01</font></td><td><font color="#9B30FF">0.84</font></td><td>Sleeper</td></tr>
+<tr><td>94</td><td>Patrick DiMarco</td><td><font color="#FF8300">-1.0</font></td><td><font color="#FF8300">-0.08</font></td><td> </td></tr>
+<tr><td>95</td><td>Brandon Bolden</td><td><font color="#32CD32">2.18</font></td><td><font color="#32CD32">0.18</font></td><td> </td></tr>
+<tr><td>96</td><td>Jed Collins</td><td><font color="#FF0000">-2.76</font></td><td><font color="#FF0000">-0.23</font></td><td> </td></tr>
+<tr><td>97</td><td>Robert Hughes</td><td><font color="#32CD32">1.65</font></td><td><font color="#32CD32">0.14</font></td><td> </td></tr>
+<tr><td>98</td><td>Jackie Battle</td><td><font color="#32CD32">0.26</font></td><td><font color="#32CD32">0.02</font></td><td> </td></tr>
+<tr><td>99</td><td>Bruce Miller</td><td><font color="#FF8300">-0.43</font></td><td><font color="#FF8300">-0.04</font></td><td> </td></tr>
+<tr><td>100</td><td>DuJuan Harris</td><td><font color="#32CD32">0.18</font></td><td><font color="#32CD32">0.01</font></td><td> </td></tr>
+<tr><td>101</td><td>Mike Tolbert</td><td><font color="#9B30FF">3.93</font></td><td><font color="#9B30FF">0.98</font></td><td>Sleeper</td></tr>
+<tr><td>102</td><td>Erik Lorig</td><td><font color="#FF8300">-0.38</font></td><td><font color="#FF8300">-0.06</font></td><td> </td></tr>
+<tr><td>103</td><td>Cedric Peerman</td><td><font color="#FF8300">-0.7</font></td><td><font color="#FF8300">-0.06</font></td><td> </td></tr>
+<tr><td>104</td><td>Joe Banyard</td><td><font color="#9B30FF">3.01</font></td><td><font color="#9B30FF">0.27</font></td><td> </td></tr>
+<tr><td>105</td><td>Will Ta'ufo'ou</td><td><font color="#FF8300">-0.32</font></td><td><font color="#FF8300">-0.03</font></td><td> </td></tr>
+<tr><td>106</td><td>James Develin</td><td><font color="#FF0000">-2.67</font></td><td><font color="#FF0000">-0.22</font></td><td> </td></tr>
+<tr><td>107</td><td>Dri Archer</td><td><font color="#32CD32">1.65</font></td><td><font color="#32CD32">0.16</font></td><td> </td></tr>
+<tr><td>108</td><td>Mike James</td><td><font color="#32CD32">0.95</font></td><td><font color="#32CD32">0.11</font></td><td> </td></tr>
+<tr><td>109</td><td>Ray Agnew</td><td><font color="#FF8300">-0.89</font></td><td><font color="#FF8300">-0.1</font></td><td> </td></tr>
+<tr><td>110</td><td>John Conner</td><td><font color="#FF8300">-1.47</font></td><td><font color="#FF8300">-0.18</font></td><td> </td></tr>
+<tr><td>111</td><td>Henry Hynoski</td><td><font color="#32CD32">-0.21</font></td><td><font color="#32CD32">-0.02</font></td><td> </td></tr>
+<tr><td>112</td><td>LaMichael James</td><td><font color="#32CD32">0.58</font></td><td><font color="#9B30FF">0.29</font></td><td> </td></tr>
+<tr><td>113</td><td>Glenn Winston</td><td><font color="#9B30FF">4.18</font></td><td><font color="#9B30FF">0.84</font></td><td>Sleeper</td></tr>
+</tbody>
+</table>
+</div>
+
+
+# WR DPS Rankings
+
+
+<div style="font-size:0.75em">
+<table id="example" class="display" cellspacing="0" width="100%">
+<thead>
+<tr><td>Rank</td><td>Player</td><td>DPS</td><td>DPS Adjusted</td><td>(S)leeper/(D)ump</td></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Antonio Brown</td><td><font color="#FF8300">-1.61</font></td><td><font color="#FF8300">-0.13</font></td><td> </td></tr>
+<tr><td>2</td><td>Demaryius Thomas</td><td><font color="#32CD32">0.8</font></td><td><font color="#32CD32">0.07</font></td><td> </td></tr>
+<tr><td>3</td><td>Jordy Nelson</td><td><font color="#32CD32">0.52</font></td><td><font color="#32CD32">0.04</font></td><td> </td></tr>
+<tr><td>4</td><td>Jeremy Maclin</td><td><font color="#FF0000">-2.88</font></td><td><font color="#FF0000">-0.24</font></td><td> </td></tr>
+<tr><td>5</td><td>Emmanuel Sanders</td><td><font color="#FF8300">-0.85</font></td><td><font color="#FF8300">-0.07</font></td><td> </td></tr>
+<tr><td>6</td><td>Dez Bryant</td><td><font color="#32CD32">1.96</font></td><td><font color="#32CD32">0.16</font></td><td> </td></tr>
+<tr><td>7</td><td>Randall Cobb</td><td><font color="#FF8300">-0.93</font></td><td><font color="#FF8300">-0.08</font></td><td> </td></tr>
+<tr><td>8</td><td>Ty Hilton</td><td><font color="#FF8300">-1.66</font></td><td><font color="#FF8300">-0.14</font></td><td> </td></tr>
+<tr><td>9</td><td>Julio Jones</td><td><font color="#32CD32">1.45</font></td><td><font color="#32CD32">0.12</font></td><td> </td></tr>
+<tr><td>10</td><td>DeAndre Hopkins</td><td><font color="#FF8300">-1.86</font></td><td><font color="#FF8300">-0.15</font></td><td> </td></tr>
+<tr><td>11</td><td>Mike Evans</td><td><font color="#FF8300">-1.54</font></td><td><font color="#FF8300">-0.14</font></td><td> </td></tr>
+<tr><td>12</td><td>Golden Tate</td><td><font color="#FF8300">-0.97</font></td><td><font color="#FF8300">-0.08</font></td><td> </td></tr>
+<tr><td>13</td><td>Alshon Jeffery</td><td><font color="#32CD32">0.62</font></td><td><font color="#32CD32">0.05</font></td><td> </td></tr>
+<tr><td>14</td><td>Kelvin Benjamin</td><td><font color="#32CD32">0.0</font></td><td><font color="#32CD32">0.0</font></td><td> </td></tr>
+<tr><td>15</td><td>DeSean Jackson</td><td><font color="#FF8300">-1.66</font></td><td><font color="#FF8300">-0.14</font></td><td> </td></tr>
+<tr><td>16</td><td>Mohamed Sanu</td><td><font color="#FF0000">-2.68</font></td><td><font color="#FF0000">-0.22</font></td><td> </td></tr>
+<tr><td>17</td><td>Brandon LaFell</td><td><font color="#FF8300">-0.51</font></td><td><font color="#FF8300">-0.04</font></td><td> </td></tr>
+<tr><td>18</td><td>Brandon Marshall</td><td><font color="#32CD32">1.48</font></td><td><font color="#32CD32">0.12</font></td><td> </td></tr>
+<tr><td>19</td><td>Jordan Matthews</td><td><font color="#FF8300">-1.33</font></td><td><font color="#FF8300">-0.11</font></td><td> </td></tr>
+<tr><td>20</td><td>Steve Smith</td><td><font color="#FF0000">-3.3</font></td><td><font color="#FF0000">-0.28</font></td><td> </td></tr>
+<tr><td>21</td><td>Torrey Smith</td><td><font color="#FF8300">-1.27</font></td><td><font color="#FF8300">-0.11</font></td><td> </td></tr>
+<tr><td>22</td><td>Anquan Boldin</td><td><font color="#FF8300">-0.41</font></td><td><font color="#FF8300">-0.03</font></td><td> </td></tr>
+<tr><td>23</td><td>Mike Wallace</td><td><font color="#32CD32">0.72</font></td><td><font color="#32CD32">0.06</font></td><td> </td></tr>
+<tr><td>24</td><td>Odell Beckham Jr.</td><td><font color="#9B30FF">5.54</font></td><td><font color="#9B30FF">0.69</font></td><td> </td></tr>
+<tr><td>25</td><td>Calvin Johnson</td><td><font color="#9B30FF">15.72</font></td><td><font color="#9B30FF">1.75</font></td><td> </td></tr>
+<tr><td>26</td><td>Sammy Watkins</td><td><font color="#FF8300">-0.59</font></td><td><font color="#FF8300">-0.05</font></td><td> </td></tr>
+<tr><td>27</td><td>A.J. Green</td><td><font color="#9B30FF">12.01</font></td><td><font color="#9B30FF">1.33</font></td><td> </td></tr>
+<tr><td>28</td><td>Keenan Allen</td><td><font color="#32CD32">1.08</font></td><td><font color="#32CD32">0.09</font></td><td> </td></tr>
+<tr><td>29</td><td>Roddy White</td><td><font color="#32CD32">0.96</font></td><td><font color="#32CD32">0.1</font></td><td> </td></tr>
+<tr><td>30</td><td>Kendall Wright</td><td><font color="#32CD32">-0.28</font></td><td><font color="#32CD32">-0.02</font></td><td> </td></tr>
+<tr><td>31</td><td>Julian Edelman</td><td><font color="#32CD32">0.75</font></td><td><font color="#32CD32">0.06</font></td><td> </td></tr>
+<tr><td>32</td><td>Malcom Floyd</td><td><font color="#FF8300">-2.19</font></td><td><font color="#FF8300">-0.18</font></td><td> </td></tr>
+<tr><td>33</td><td>Eddie Royal</td><td><font color="#FF0000">-2.97</font></td><td><font color="#FF0000">-0.25</font></td><td> </td></tr>
+<tr><td>34</td><td>Kenny Stills</td><td><font color="#9B30FF">2.94</font></td><td><font color="#9B30FF">0.27</font></td><td> </td></tr>
+<tr><td>35</td><td>John Brown</td><td><font color="#FF0000">-2.96</font></td><td><font color="#FF0000">-0.25</font></td><td> </td></tr>
+<tr><td>36</td><td>Andrew Hawkins</td><td><font color="#FF8300">-1.95</font></td><td><font color="#FF8300">-0.18</font></td><td> </td></tr>
+<tr><td>37</td><td>Terrance Williams</td><td><font color="#FF0000">-3.11</font></td><td><font color="#FF0000">-0.26</font></td><td> </td></tr>
+<tr><td>38</td><td>Allen Hurns</td><td><font color="#FF0000">-3.08</font></td><td><font color="#FF0000">-0.26</font></td><td> </td></tr>
+<tr><td>39</td><td>Michael Crabtree</td><td><font color="#FF8300">-0.52</font></td><td><font color="#FF8300">-0.04</font></td><td> </td></tr>
+<tr><td>40</td><td>Vincent Jackson</td><td><font color="#32CD32">0.96</font></td><td><font color="#32CD32">0.08</font></td><td> </td></tr>
+<tr><td>41</td><td>James Jones</td><td><font color="#FF0000">-3.44</font></td><td><font color="#FF0000">-0.29</font></td><td> </td></tr>
+<tr><td>42</td><td>Marques Colston</td><td><font color="#32CD32">0.92</font></td><td><font color="#32CD32">0.08</font></td><td> </td></tr>
+<tr><td>43</td><td>Greg Jennings</td><td><font color="#FF8300">-1.77</font></td><td><font color="#FF8300">-0.15</font></td><td> </td></tr>
+<tr><td>44</td><td>Andre Johnson</td><td><font color="#9B30FF">4.02</font></td><td><font color="#9B30FF">0.34</font></td><td> </td></tr>
+<tr><td>45</td><td>Eric Decker</td><td><font color="#FF8300">-1.14</font></td><td><font color="#FF8300">-0.1</font></td><td> </td></tr>
+<tr><td>46</td><td>Larry Fitzgerald</td><td><font color="#FF8300">-0.79</font></td><td><font color="#FF8300">-0.08</font></td><td> </td></tr>
+<tr><td>47</td><td>Reggie Wayne</td><td><font color="#32CD32">0.74</font></td><td><font color="#32CD32">0.07</font></td><td> </td></tr>
+<tr><td>48</td><td>Jarvis Landry</td><td><font color="#9B30FF">2.7</font></td><td><font color="#32CD32">0.22</font></td><td> </td></tr>
+<tr><td>49</td><td>Andre Holmes</td><td><font color="#FF0000">-5.58</font></td><td><font color="#FF0000">-0.47</font></td><td> </td></tr>
+<tr><td>50</td><td>Robert Woods</td><td><font color="#32CD32">1.53</font></td><td><font color="#32CD32">0.13</font></td><td> </td></tr>
+<tr><td>51</td><td>Rueben Randle</td><td><font color="#32CD32">0.0</font></td><td><font color="#32CD32">0.0</font></td><td> </td></tr>
+<tr><td>52</td><td>Michael Floyd</td><td><font color="#FF8300">-0.66</font></td><td><font color="#FF8300">-0.06</font></td><td> </td></tr>
+<tr><td>53</td><td>Martavis Bryant</td><td><font color="#32CD32">1.67</font></td><td><font color="#9B30FF">0.28</font></td><td> </td></tr>
+<tr><td>54</td><td>Pierre Garcon</td><td><font color="#FF8300">-0.36</font></td><td><font color="#FF8300">-0.03</font></td><td> </td></tr>
+<tr><td>55</td><td>Kenny Britt</td><td><font color="#FF8300">-1.04</font></td><td><font color="#FF8300">-0.09</font></td><td> </td></tr>
+<tr><td>56</td><td>Markus Wheaton</td><td><font color="#FF0000">-3.39</font></td><td><font color="#FF0000">-0.28</font></td><td> </td></tr>
+<tr><td>57</td><td>Doug Baldwin</td><td><font color="#32CD32">1.13</font></td><td><font color="#32CD32">0.09</font></td><td> </td></tr>
+<tr><td>58</td><td>Steve Johnson</td><td><font color="#FF0000">-3.8</font></td><td><font color="#FF0000">-0.32</font></td><td> </td></tr>
+<tr><td>59</td><td>Taylor Gabriel</td><td><font color="#FF8300">-1.16</font></td><td><font color="#FF8300">-0.1</font></td><td> </td></tr>
+<tr><td>60</td><td>Davante Adams</td><td><font color="#32CD32">1.48</font></td><td><font color="#32CD32">0.12</font></td><td> </td></tr>
+<tr><td>61</td><td>Nate Washington</td><td><font color="#32CD32">0.86</font></td><td><font color="#32CD32">0.07</font></td><td> </td></tr>
+<tr><td>62</td><td>Donte Moncrief</td><td><font color="#32CD32">2.09</font></td><td><font color="#32CD32">0.17</font></td><td> </td></tr>
+<tr><td>63</td><td>Cordarrelle Patterson</td><td><font color="#FF0000">-2.83</font></td><td><font color="#FF0000">-0.24</font></td><td> </td></tr>
+<tr><td>64</td><td>Dwayne Bowe</td><td><font color="#32CD32">-0.15</font></td><td><font color="#32CD32">-0.01</font></td><td> </td></tr>
+<tr><td>65</td><td>Percy Harvin</td><td><font color="#9B30FF">2.79</font></td><td><font color="#9B30FF">0.28</font></td><td> </td></tr>
+<tr><td>66</td><td>Devin Hester</td><td><font color="#FF8300">-2.47</font></td><td><font color="#FF8300">-0.21</font></td><td> </td></tr>
+<tr><td>67</td><td>Riley Cooper</td><td><font color="#FF8300">-1.42</font></td><td><font color="#FF8300">-0.12</font></td><td> </td></tr>
+<tr><td>68</td><td>Louis Murphy</td><td><font color="#FF8300">-0.54</font></td><td><font color="#FF8300">-0.06</font></td><td> </td></tr>
+<tr><td>69</td><td>Jermaine Kearse</td><td><font color="#32CD32">-0.28</font></td><td><font color="#32CD32">-0.02</font></td><td> </td></tr>
+<tr><td>70</td><td>Jerricho Cotchery</td><td><font color="#FF8300">-1.59</font></td><td><font color="#FF8300">-0.14</font></td><td> </td></tr>
+<tr><td>71</td><td>Andre Roberts</td><td><font color="#FF8300">-1.14</font></td><td><font color="#FF8300">-0.09</font></td><td> </td></tr>
+<tr><td>72</td><td>Travis Benjamin</td><td><font color="#FF8300">-2.46</font></td><td><font color="#FF8300">-0.2</font></td><td> </td></tr>
+<tr><td>73</td><td>Chris Hogan</td><td><font color="#32CD32">0.73</font></td><td><font color="#32CD32">0.06</font></td><td> </td></tr>
+<tr><td>74</td><td>Cecil Shorts</td><td><font color="#9B30FF">4.02</font></td><td><font color="#9B30FF">0.45</font></td><td> </td></tr>
+<tr><td>75</td><td>Tavon Austin</td><td><font color="#32CD32">0.0</font></td><td><font color="#32CD32">0.0</font></td><td> </td></tr>
+<tr><td>76</td><td>Jeremy Kerley</td><td><font color="#FF0000">-2.73</font></td><td><font color="#FF0000">-0.23</font></td><td> </td></tr>
+<tr><td>77</td><td>Brian Hartline</td><td><font color="#FF8300">-0.71</font></td><td><font color="#FF8300">-0.06</font></td><td> </td></tr>
+<tr><td>78</td><td>Hakeem Nicks</td><td><font color="#FF8300">-1.42</font></td><td><font color="#FF8300">-0.12</font></td><td> </td></tr>
+<tr><td>79</td><td>Harry Douglas</td><td><font color="#32CD32">1.82</font></td><td><font color="#32CD32">0.23</font></td><td> </td></tr>
+<tr><td>80</td><td>Wes Welker</td><td><font color="#32CD32">1.47</font></td><td><font color="#32CD32">0.15</font></td><td> </td></tr>
+<tr><td>81</td><td>Preston Parker</td><td><font color="#FF8300">-0.48</font></td><td><font color="#FF8300">-0.04</font></td><td> </td></tr>
+<tr><td>82</td><td>Jarius Wright</td><td><font color="#FF8300">-0.73</font></td><td><font color="#FF8300">-0.06</font></td><td> </td></tr>
+<tr><td>83</td><td>Brice Butler</td><td><font color="#FF0000">-4.44</font></td><td><font color="#FF0000">-0.4</font></td><td> </td></tr>
+<tr><td>84</td><td>Dexter McCluster</td><td><font color="#FF0000">-4.39</font></td><td><font color="#FF0000">-0.37</font></td><td> </td></tr>
+<tr><td>85</td><td>Stedman Bailey</td><td><font color="#9B30FF">6.23</font></td><td><font color="#9B30FF">0.62</font></td><td> </td></tr>
+<tr><td>86</td><td>Marqise Lee</td><td><font color="#9B30FF">3.66</font></td><td><font color="#9B30FF">0.41</font></td><td> </td></tr>
+<tr><td>87</td><td>Philly Brown</td><td><font color="#9B30FF">2.14</font></td><td><font color="#9B30FF">0.24</font></td><td> </td></tr>
+<tr><td>88</td><td>Brandon Lloyd</td><td><font color="#FF0000">-3.08</font></td><td><font color="#FF0000">-0.28</font></td><td> </td></tr>
+<tr><td>89</td><td>Charles Johnson</td><td><font color="#9B30FF">6.52</font></td><td><font color="#9B30FF">0.93</font></td><td>Sleeper</td></tr>
+<tr><td>90</td><td>Lance Moore</td><td><font color="#FF8300">-1.3</font></td><td><font color="#FF8300">-0.13</font></td><td> </td></tr>
+<tr><td>91</td><td>Damaris Johnson</td><td><font color="#FF0000">-2.88</font></td><td><font color="#FF0000">-0.24</font></td><td> </td></tr>
+<tr><td>92</td><td>Jeremy Ross</td><td><font color="#FF8300">-2.13</font></td><td><font color="#FF8300">-0.18</font></td><td> </td></tr>
+<tr><td>93</td><td>Ricardo Lockette</td><td><font color="#FF8300">-2.28</font></td><td><font color="#FF8300">-0.19</font></td><td> </td></tr>
+<tr><td>94</td><td>Jason Avant</td><td><font color="#FF8300">-0.92</font></td><td><font color="#FF8300">-0.08</font></td><td> </td></tr>
+<tr><td>95</td><td>Cole Beasley</td><td><font color="#9B30FF">2.77</font></td><td><font color="#32CD32">0.23</font></td><td> </td></tr>
+<tr><td>96</td><td>Greg Salas</td><td><font color="#FF0000">-3.4</font></td><td><font color="#FF0000">-0.34</font></td><td> </td></tr>
+<tr><td>97</td><td>Corey Fuller</td><td><font color="#32CD32">-0.25</font></td><td><font color="#32CD32">-0.02</font></td><td> </td></tr>
+<tr><td>98</td><td>Brandon Gibson</td><td><font color="#32CD32">0.13</font></td><td><font color="#32CD32">0.01</font></td><td> </td></tr>
+<tr><td>99</td><td>Jaron Brown</td><td><font color="#9B30FF">2.84</font></td><td><font color="#32CD32">0.24</font></td><td> </td></tr>
+<tr><td>100</td><td>Rishard Matthews</td><td><font color="#FF0000">-4.22</font></td><td><font color="#FF0000">-0.35</font></td><td> </td></tr>
+<tr><td>101</td><td>Brandon Tate</td><td><font color="#FF8300">-0.99</font></td><td><font color="#FF8300">-0.08</font></td><td> </td></tr>
+<tr><td>102</td><td>Kamar Aiken</td><td><font color="#FF8300">-1.11</font></td><td><font color="#FF8300">-0.1</font></td><td> </td></tr>
+<tr><td>103</td><td>Mike Williams</td><td><font color="#FF0000">-3.63</font></td><td><font color="#FF0000">-0.4</font></td><td> </td></tr>
+<tr><td>104</td><td>Josh Gordon</td><td><font color="#9B30FF">33.55</font></td><td><font color="#9B30FF">16.78</font></td><td> </td></tr>
+<tr><td>105</td><td>Derek Hagan</td><td><font color="#32CD32">2.03</font></td><td><font color="#32CD32">0.17</font></td><td> </td></tr>
+<tr><td>106</td><td>Brenton Bersin</td><td><font color="#FF8300">-1.99</font></td><td><font color="#FF8300">-0.18</font></td><td> </td></tr>
+<tr><td>107</td><td>Ted Ginn Jr.</td><td><font color="#32CD32">-0.15</font></td><td><font color="#32CD32">-0.01</font></td><td> </td></tr>
+<tr><td>108</td><td>Austin Pettis</td><td><font color="#32CD32">0.2</font></td><td><font color="#32CD32">0.04</font></td><td> </td></tr>
+<tr><td>109</td><td>Kenbrell Thompkins</td><td><font color="#32CD32">1.5</font></td><td><font color="#32CD32">0.15</font></td><td> </td></tr>
+<tr><td>110</td><td>Donnie Avery</td><td><font color="#32CD32">1.19</font></td><td><font color="#32CD32">0.24</font></td><td> </td></tr>
+<tr><td>111</td><td>Danny Amendola</td><td><font color="#9B30FF">2.95</font></td><td><font color="#9B30FF">0.25</font></td><td> </td></tr>
+<tr><td>112</td><td>T.J. Graham</td><td><font color="#FF8300">-1.45</font></td><td><font color="#FF8300">-0.18</font></td><td> </td></tr>
+<tr><td>113</td><td>Joseph Morgan</td><td><font color="#32CD32">0.6</font></td><td><font color="#32CD32">0.15</font></td><td> </td></tr>
+<tr><td>114</td><td>Marlon Brown</td><td><font color="#32CD32">1.51</font></td><td><font color="#32CD32">0.15</font></td><td> </td></tr>
+<tr><td>115</td><td>James Wright</td><td><font color="#9B30FF">4.68</font></td><td><font color="#9B30FF">0.43</font></td><td> </td></tr>
+<tr><td>116</td><td>Nick Toon</td><td><font color="#9B30FF">5.45</font></td><td><font color="#9B30FF">1.82</font></td><td>Sleeper</td></tr>
+<tr><td>117</td><td>Robert Herron</td><td><font color="#FF8300">-2.07</font></td><td><font color="#FF0000">-0.26</font></td><td> </td></tr>
+<tr><td>118</td><td>Josh Morgan</td><td><font color="#FF8300">-0.8</font></td><td><font color="#FF8300">-0.08</font></td><td> </td></tr>
+<tr><td>119</td><td>Paul Richardson</td><td><font color="#32CD32">1.97</font></td><td><font color="#32CD32">0.18</font></td><td> </td></tr>
+<tr><td>120</td><td>Chris Givens</td><td><font color="#32CD32">0.0</font></td><td><font color="#32CD32">0.0</font></td><td> </td></tr>
+<tr><td>121</td><td>Dwayne Harris</td><td><font color="#FF0000">-2.6</font></td><td><font color="#FF8300">-0.22</font></td><td> </td></tr>
+<tr><td>122</td><td>Vincent Brown</td><td><font color="#32CD32">0.22</font></td><td><font color="#32CD32">0.04</font></td><td> </td></tr>
+<tr><td>123</td><td>Keshawn Martin</td><td><font color="#FF0000">-2.8</font></td><td><font color="#FF0000">-0.23</font></td><td> </td></tr>
+<tr><td>124</td><td>Ryan Grant</td><td><font color="#FF8300">-1.19</font></td><td><font color="#FF8300">-0.1</font></td><td> </td></tr>
+<tr><td>125</td><td>Albert Wilson</td><td><font color="#FF0000">-2.55</font></td><td><font color="#FF0000">-0.32</font></td><td> </td></tr>
+<tr><td>126</td><td>Jacoby Jones</td><td><font color="#32CD32">0.84</font></td><td><font color="#32CD32">0.07</font></td><td> </td></tr>
+<tr><td>127</td><td>Andre Caldwell</td><td><font color="#32CD32">0.0</font></td><td><font color="#32CD32">0.0</font></td><td> </td></tr>
+<tr><td>128</td><td>Kevin Norwood</td><td><font color="#FF8300">-0.68</font></td><td><font color="#FF8300">-0.1</font></td><td> </td></tr>
+<tr><td>129</td><td>Aaron Dobson</td><td><font color="#32CD32">1.19</font></td><td><font color="#9B30FF">0.3</font></td><td> </td></tr>
+<tr><td>130</td><td>Marquise Goodwin</td><td><font color="#32CD32">0.78</font></td><td><font color="#32CD32">0.11</font></td><td> </td></tr>
+<tr><td>131</td><td>Frankie Hammond</td><td><font color="#FF8300">-1.05</font></td><td><font color="#FF8300">-0.09</font></td><td> </td></tr>
+<tr><td>132</td><td>Josh Huff</td><td><font color="#32CD32">0.68</font></td><td><font color="#32CD32">0.08</font></td><td> </td></tr>
+<tr><td>133</td><td>Santana Moss</td><td><font color="#32CD32">1.59</font></td><td><font color="#9B30FF">0.32</font></td><td> </td></tr>
+<tr><td>134</td><td>Jarrett Boykin</td><td><font color="#9B30FF">4.29</font></td><td><font color="#9B30FF">0.48</font></td><td> </td></tr>
+<tr><td>135</td><td>Marquess Wilson</td><td><font color="#9B30FF">4.5</font></td><td><font color="#9B30FF">1.5</font></td><td>Sleeper</td></tr>
+<tr><td>136</td><td>Devin Street</td><td><font color="#FF8300">-1.6</font></td><td><font color="#FF8300">-0.13</font></td><td> </td></tr>
+<tr><td>137</td><td>Darrius Heyward-Bey</td><td><font color="#32CD32">0.85</font></td><td><font color="#32CD32">0.07</font></td><td> </td></tr>
+<tr><td>138</td><td>Cody Latimer</td><td><font color="#9B30FF">4.88</font></td><td><font color="#9B30FF">0.81</font></td><td> </td></tr>
+<tr><td>139</td><td>Ace Sanders</td><td><font color="#32CD32">1.33</font></td><td><font color="#32CD32">0.17</font></td><td> </td></tr>
+</tbody>
+</table>
+</div>
+
+
+# TE DPS Rankings
+
+
+<div style="font-size:0.75em">
+<table id="example" class="display" cellspacing="0" width="100%">
+<thead>
+<tr><td>Rank</td><td>Player</td><td>DPS</td><td>DPS Adjusted</td><td>(S)leeper/(D)ump</td></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Rob Gronkowski</td><td><font color="#32CD32">2.29</font></td><td><font color="#32CD32">0.19</font></td><td> </td></tr>
+<tr><td>2</td><td>Jimmy Graham</td><td><font color="#32CD32">1.84</font></td><td><font color="#32CD32">0.15</font></td><td> </td></tr>
+<tr><td>3</td><td>Julius Thomas</td><td><font color="#32CD32">0.52</font></td><td><font color="#32CD32">0.05</font></td><td> </td></tr>
+<tr><td>4</td><td>Antonio Gates</td><td><font color="#FF8300">-0.47</font></td><td><font color="#FF8300">-0.04</font></td><td> </td></tr>
+<tr><td>5</td><td>Greg Olsen</td><td><font color="#32CD32">0.46</font></td><td><font color="#32CD32">0.04</font></td><td> </td></tr>
+<tr><td>6</td><td>Martellus Bennett</td><td><font color="#32CD32">1.76</font></td><td><font color="#32CD32">0.15</font></td><td> </td></tr>
+<tr><td>7</td><td>Coby Fleener</td><td><font color="#FF8300">-0.85</font></td><td><font color="#FF8300">-0.07</font></td><td> </td></tr>
+<tr><td>8</td><td>Delanie Walker</td><td><font color="#32CD32">0.92</font></td><td><font color="#32CD32">0.08</font></td><td> </td></tr>
+<tr><td>9</td><td>Travis Kelce</td><td><font color="#FF8300">0.0</font></td><td><font color="#FF8300">0.0</font></td><td> </td></tr>
+<tr><td>10</td><td>Larry Donnell</td><td><font color="#FF8300">-0.47</font></td><td><font color="#FF8300">-0.04</font></td><td> </td></tr>
+<tr><td>11</td><td>Dwayne Allen</td><td><font color="#FF8300">-0.61</font></td><td><font color="#FF8300">-0.06</font></td><td> </td></tr>
+<tr><td>12</td><td>Jason Witten</td><td><font color="#32CD32">2.03</font></td><td><font color="#32CD32">0.17</font></td><td> </td></tr>
+<tr><td>13</td><td>Heath Miller</td><td><font color="#FF8300">-0.84</font></td><td><font color="#FF8300">-0.07</font></td><td> </td></tr>
+<tr><td>14</td><td>Timothy Wright</td><td><font color="#FF8300">-1.49</font></td><td><font color="#FF8300">-0.12</font></td><td> </td></tr>
+<tr><td>15</td><td>Owen Daniels</td><td><font color="#FF8300">-1.67</font></td><td><font color="#FF8300">-0.15</font></td><td> </td></tr>
+<tr><td>16</td><td>Zach Ertz</td><td><font color="#FF8300">-0.6</font></td><td><font color="#FF8300">-0.05</font></td><td> </td></tr>
+<tr><td>17</td><td>Jared Cook</td><td><font color="#FF8300">-0.29</font></td><td><font color="#FF8300">-0.02</font></td><td> </td></tr>
+<tr><td>18</td><td>Mychal Rivera</td><td><font color="#FF8300">0.24</font></td><td><font color="#FF8300">0.02</font></td><td> </td></tr>
+<tr><td>19</td><td>Niles Paul</td><td><font color="#FF0000">-3.41</font></td><td><font color="#FF0000">-0.28</font></td><td> </td></tr>
+<tr><td>20</td><td>Jermaine Gresham</td><td><font color="#FF8300">-0.52</font></td><td><font color="#FF8300">-0.04</font></td><td> </td></tr>
+<tr><td>21</td><td>Charles Clay</td><td><font color="#32CD32">1.28</font></td><td><font color="#32CD32">0.13</font></td><td> </td></tr>
+<tr><td>22</td><td>Anthony Fasano</td><td><font color="#FF8300">-1.07</font></td><td><font color="#FF8300">-0.1</font></td><td> </td></tr>
+<tr><td>23</td><td>Scott Chandler</td><td><font color="#FF8300">-2.08</font></td><td><font color="#FF8300">-0.17</font></td><td> </td></tr>
+<tr><td>24</td><td>Andrew Quarless</td><td><font color="#FF0000">-2.1</font></td><td><font color="#FF0000">-0.17</font></td><td> </td></tr>
+<tr><td>25</td><td>Lance Kendricks</td><td><font color="#FF0000">-3.87</font></td><td><font color="#FF0000">-0.32</font></td><td> </td></tr>
+<tr><td>26</td><td>Jace Amaro</td><td><font color="#FF0000">-4.87</font></td><td><font color="#FF0000">-0.44</font></td><td> </td></tr>
+<tr><td>27</td><td>John Carlson</td><td><font color="#FF8300">-0.99</font></td><td><font color="#FF8300">-0.08</font></td><td> </td></tr>
+<tr><td>28</td><td>Daniel Fells</td><td><font color="#FF0000">-4.16</font></td><td><font color="#FF0000">-0.35</font></td><td> </td></tr>
+<tr><td>29</td><td>Jordan Reed</td><td><font color="#9B30FF">8.58</font></td><td><font color="#9B30FF">1.23</font></td><td> </td></tr>
+<tr><td>30</td><td>Clay Harbor</td><td><font color="#FF8300">-1.47</font></td><td><font color="#FF8300">-0.16</font></td><td> </td></tr>
+<tr><td>31</td><td>Josh Hill</td><td><font color="#FF0000">-4.48</font></td><td><font color="#FF0000">-0.37</font></td><td> </td></tr>
+<tr><td>32</td><td>Vernon Davis</td><td><font color="#32CD32">1.87</font></td><td><font color="#32CD32">0.19</font></td><td> </td></tr>
+<tr><td>33</td><td>Austin Seferian-Jenkins</td><td><font color="#FF8300">-0.48</font></td><td><font color="#FF8300">-0.05</font></td><td> </td></tr>
+<tr><td>34</td><td>Jordan Cameron</td><td><font color="#9B30FF">3.97</font></td><td><font color="#9B30FF">0.66</font></td><td> </td></tr>
+<tr><td>35</td><td>Levine Toilolo</td><td><font color="#FF8300">-0.41</font></td><td><font color="#FF8300">-0.03</font></td><td> </td></tr>
+<tr><td>36</td><td>Cooper Helfet</td><td><font color="#FF8300">-0.72</font></td><td><font color="#FF8300">-0.08</font></td><td> </td></tr>
+<tr><td>37</td><td>Jim Dray</td><td><font color="#FF0000">-2.89</font></td><td><font color="#FF0000">-0.24</font></td><td> </td></tr>
+<tr><td>38</td><td>Richard Rodgers</td><td><font color="#32CD32">1.46</font></td><td><font color="#32CD32">0.12</font></td><td> </td></tr>
+<tr><td>39</td><td>Chase Ford</td><td><font color="#FF0000">-2.75</font></td><td><font color="#FF0000">-0.34</font></td><td> </td></tr>
+<tr><td>40</td><td>Gavin Escobar</td><td><font color="#FF0000">-4.58</font></td><td><font color="#FF0000">-0.38</font></td><td> </td></tr>
+<tr><td>41</td><td>Dion Sims</td><td><font color="#9B30FF">2.45</font></td><td><font color="#9B30FF">0.25</font></td><td> </td></tr>
+<tr><td>42</td><td>Kyle Rudolph</td><td><font color="#9B30FF">12.47</font></td><td><font color="#9B30FF">2.08</font></td><td> </td></tr>
+<tr><td>43</td><td>Brent Celek</td><td><font color="#9B30FF">2.43</font></td><td><font color="#32CD32">0.2</font></td><td> </td></tr>
+<tr><td>44</td><td>Garrett Graham</td><td><font color="#32CD32">1.12</font></td><td><font color="#32CD32">0.1</font></td><td> </td></tr>
+<tr><td>45</td><td>Luke Willson</td><td><font color="#9B30FF">3.03</font></td><td><font color="#9B30FF">0.28</font></td><td> </td></tr>
+<tr><td>46</td><td>Eric Ebron</td><td><font color="#9B30FF">2.76</font></td><td><font color="#9B30FF">0.31</font></td><td> </td></tr>
+<tr><td>47</td><td>Jeff Cumberland</td><td><font color="#32CD32">0.85</font></td><td><font color="#32CD32">0.07</font></td><td> </td></tr>
+<tr><td>48</td><td>Ladarius Green</td><td><font color="#9B30FF">2.69</font></td><td><font color="#9B30FF">0.24</font></td><td> </td></tr>
+<tr><td>49</td><td>Jacob Tamme</td><td><font color="#32CD32">0.3</font></td><td><font color="#32CD32">0.02</font></td><td> </td></tr>
+<tr><td>50</td><td>Rhett Ellison</td><td><font color="#FF8300">-1.06</font></td><td><font color="#FF8300">-0.09</font></td><td> </td></tr>
+<tr><td>51</td><td>James Casey</td><td><font color="#FF0000">-2.82</font></td><td><font color="#FF0000">-0.24</font></td><td> </td></tr>
+<tr><td>52</td><td>Marcedes Lewis</td><td><font color="#9B30FF">4.7</font></td><td><font color="#9B30FF">1.17</font></td><td> </td></tr>
+<tr><td>53</td><td>Brandon Myers</td><td><font color="#FF8300">0.0</font></td><td><font color="#FF8300">0.0</font></td><td> </td></tr>
+<tr><td>54</td><td>Benjamin Watson</td><td><font color="#FF8300">-0.48</font></td><td><font color="#FF8300">-0.04</font></td><td> </td></tr>
+<tr><td>55</td><td>Tony Moeaki</td><td><font color="#9B30FF">5.68</font></td><td><font color="#9B30FF">1.89</font></td><td>Sleeper</td></tr>
+<tr><td>56</td><td>Gary Barnidge</td><td><font color="#FF8300">-1.23</font></td><td><font color="#FF8300">-0.1</font></td><td> </td></tr>
+<tr><td>57</td><td>Jack Doyle</td><td><font color="#FF8300">-1.92</font></td><td><font color="#FF8300">-0.16</font></td><td> </td></tr>
+<tr><td>58</td><td>Crockett Gillmore</td><td><font color="#FF0000">-2.37</font></td><td><font color="#FF0000">-0.2</font></td><td> </td></tr>
+<tr><td>59</td><td>Chase Coffman</td><td><font color="#32CD32">0.69</font></td><td><font color="#32CD32">0.08</font></td><td> </td></tr>
+<tr><td>60</td><td>Adrien Robinson</td><td><font color="#32CD32">0.62</font></td><td><font color="#32CD32">0.05</font></td><td> </td></tr>
+<tr><td>61</td><td>Chris Gragg</td><td><font color="#FF0000">-7.0</font></td><td><font color="#FF0000">-0.7</font></td><td> </td></tr>
+<tr><td>62</td><td>Logan Paulsen</td><td><font color="#32CD32">0.44</font></td><td><font color="#32CD32">0.04</font></td><td> </td></tr>
+<tr><td>63</td><td>Cory Harkey</td><td><font color="#FF8300">-1.33</font></td><td><font color="#FF8300">-0.11</font></td><td> </td></tr>
+<tr><td>64</td><td>MarQueis Gray</td><td><font color="#9B30FF">2.42</font></td><td><font color="#9B30FF">0.27</font></td><td> </td></tr>
+<tr><td>65</td><td>Dante Rosario</td><td><font color="#FF0000">-2.8</font></td><td><font color="#FF0000">-0.23</font></td><td> </td></tr>
+<tr><td>66</td><td>Ryan Griffin</td><td><font color="#32CD32">0.4</font></td><td><font color="#32CD32">0.03</font></td><td> </td></tr>
+<tr><td>67</td><td>Joseph Fauria</td><td><font color="#32CD32">1.82</font></td><td><font color="#9B30FF">0.3</font></td><td> </td></tr>
+<tr><td>68</td><td>Robert Housler</td><td><font color="#32CD32">0.49</font></td><td><font color="#32CD32">0.04</font></td><td> </td></tr>
+<tr><td>69</td><td>Brandon Pettigrew</td><td><font color="#32CD32">1.16</font></td><td><font color="#32CD32">0.12</font></td><td> </td></tr>
+<tr><td>70</td><td>Brandon Bostick</td><td><font color="#32CD32">0.55</font></td><td><font color="#32CD32">0.06</font></td><td> </td></tr>
+<tr><td>71</td><td>Ed Dickson</td><td><font color="#FF8300">-0.25</font></td><td><font color="#FF8300">-0.02</font></td><td> </td></tr>
+<tr><td>72</td><td>Michael Hoomanawanui</td><td><font color="#32CD32">0.51</font></td><td><font color="#32CD32">0.04</font></td><td> </td></tr>
+<tr><td>73</td><td>James Hanna</td><td><font color="#32CD32">0.37</font></td><td><font color="#32CD32">0.03</font></td><td> </td></tr>
+<tr><td>74</td><td>Luke Stocker</td><td><font color="#32CD32">0.8</font></td><td><font color="#32CD32">0.09</font></td><td> </td></tr>
+<tr><td>75</td><td>C.J. Fiedorowicz</td><td><font color="#32CD32">1.28</font></td><td><font color="#32CD32">0.12</font></td><td> </td></tr>
+<tr><td>76</td><td>Vance McDonald</td><td><font color="#9B30FF">2.69</font></td><td><font color="#9B30FF">0.34</font></td><td> </td></tr>
+</tbody>
+</table>
+</div>
+
+
