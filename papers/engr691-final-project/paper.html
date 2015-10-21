@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="author" content="Clay McLeod, University of Mississippi, {clmcleod}@go.olemiss.edu">
+  <title>ENGR 691: Final Project</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="assets/fonts/cm/cm.css">
+  <link rel="stylesheet" href="assets/css/academic-pub.css">
+  <link rel="stylesheet" href="assets/css/ieee.css">
+</head>
+<body>
+<header>
+<h1 class="title">ENGR 691: Final Project</h1>
+<h2 class="author">Clay McLeod, University of Mississippi, {clmcleod}@go.olemiss.edu</h2>
+<h3 class="date">October 2015</h3>
+</header>
+<nav id="TOC">
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#theory">Theory</a></li>
+<li><a href="#implementation">Implementation</a></li>
+<li><a href="#project-description">Project Description</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ul>
+</nav>
+<div class="abstract">
+Abstract - This paper is meant to describe my final project for ENGR 691 in the Fall of 2015 at the University of Mississippi.
+</div>
+<div id="main">
+<h1 id="introduction">Introduction</h1>
+<p>For my presentation, I chose to look at <span class="citation" data-cites="wsn-volcano">(Werner-Allen et al. 2006)</span>, which is a paper that examines the effectiveness of Wireless Sensor Networks (WSNs) to monitor volcano activity. One of the major problems that the authors consider is that of reliable data transmission. The authors cite two reasons for this: (1) wireless sensor communications are inherently lossy and (2) the oscillators that drive the clocks on these systems are of low quality, so time synchronization is a problem. To solve this problem, the authors developed a reliable data-transfer protocol called &quot;Fetch&quot;.</p>
+<h1 id="theory">Theory</h1>
+<p>In the author's implementation, each node contains buffered data stored on disk that describes the previous 20 minutes of seismic activity. When an event is detected by a node, that node sends a packet to the base station, alerting it that it believes a significant event has occurred. If many different wireless sensor nodes alert the base station that they believe a significant volcanic event has occurred, the base station triggers data collection by telling all of the nodes it would like to collect data (collection packets are flooded throughout the network). This is where the Fetch protocol becomes crucial.</p>
+<h1 id="implementation">Implementation</h1>
+<p>First, the node breaks all of its sample data into 256 byte segments, which are then indexed according to their contiguous order. Next, the client tells the base station how many segments of data are stored in the buffer. After the base station acknowledges this information, it begins flooding the network with packets addressed to each node. Inside this packet is a vector containing all of the indices of data that the base station has not received. Based on this information, the client randomly sends data that the base station is missing by flooding the network. This is similar to how torrenting works in the peer to peer file sharing system.</p>
+<h1 id="project-description">Project Description</h1>
+<p>For my project, I will be implementing the Fetch protocol on several wireless sensor nodes running TinyOS to perform reliable data transmission with pseudo-data. There are a couple of key design decisions in my implementation. First, I will not implement seismic data collection or event triggers, as they are outside of the scope of the Fetch protocol. Second, due to the lack of resources (WSN nodes), a lossy network will have to be simulated rather than naturally occur. The difficulty of this on TinyOS is undetermined, but should be relatively straightforward. If possible, I would like to implement this in the Python programming language, as that is the language that I am most familiar with. However, I am unsure whether Python is supported on TinyOS and, if it is, what amount of the API is accessible in Python. Therefore, I will write my program in C if Python is not supported.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>To conclude, my final project is concerned with reliable data transmission in a WSN, where communication is often lossy or asymmetrical. This implementation is based on Fetch, a protocol developed to perform reliable data transmission in a hostile environment <span class="citation" data-cites="wsn-volcano">(Werner-Allen et al. 2006)</span>. This protocol acts much like the peer-to-peer file sharing protocol called bittorrent. All objectives of this assignment seem reasonable to achieve within the duration of the semester, namely:</p>
+<ul>
+<li>Configure TinyOS on several wireless sensor nodes</li>
+<li>Write a program (in Python or C) which simulates the Fetch protocol for data transmission</li>
+<li>Test this implementation against a hostile environment</li>
+</ul>
+<p>This concludes my final project description. For any questions, I am available at clmcleod@go.olemiss.edu.</p>
+<div class="references">
+<div id="ref-wsn-volcano">
+<p>Werner-Allen, Geoffrey, Konrad Lorincz, Mario Ruiz, Omar Marcillo, Jeff Johnson, Jonathan Lees, and Matt Welsh. 2006. “Deploying a Wireless Sensor Network on an Active Volcano.” <em>Internet Computing, IEEE</em> 10 (2). IEEE: 18–25.</p>
+</div>
+</div>
+</div>
+</body>
+</html>
