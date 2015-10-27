@@ -699,6 +699,7 @@
 		position: relative;
 		max-width: 100%;
 		min-width: 27em;
+        width: 600px;
 		padding: 4.5em 3em 3em 3em ;
 		background: #ffffff;
 		border-radius: 4px;
