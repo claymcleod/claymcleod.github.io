@@ -109,7 +109,31 @@ Maximizes long-term rewards by using its own experience (find answers along the 
 
 > * *Power consumption*: Many ML techniques are computationally expensive. Utilizing them in a wireless sensor network could have negative effects depending on how often the calculations are run.
 
-> * *Data availability*: Generally speaking, ML perform better as the amount of data you have increases. Since WSNs are generally deployed in unpredictable environments, we cannot be sure what data we have coming into the system (except in supervised learning).
+> * *Data purity*: Generally speaking, ML perform better as the amount of data you have increases. Since WSNs are generally deployed in unpredictable environments, we cannot be sure what data we have coming into the system (except in supervised learning).
+
+# Brief Note on Bayesian Statistics
+
+## Bayesian Statistics
+
+### Process
+
+> * Model inputs/outputs as random variables, build model based on the distributions
+
+> * Update bayesian model using existing data (prior)
+
+> * Run thousands of random simulations to determine true distrobution of inputs/outputs.
+
+## Bayesian Statistics
+
+### Benefits for WSNs
+
+> 1. Very fast execution, straightforward implementation
+
+> 2. Low power consumption
+
+> 3. **Works well on small amounts of sparse data/small amount of data**
+
+> 4. Output is generally probabilities (except in ML paradigms, like Bayes network).
 
 # Solutions
 
@@ -126,8 +150,6 @@ Maximizes long-term rewards by using its own experience (find answers along the 
 **Solution**: Q-Probabilistic Routing
 
 QoS enabled routing protocol that uses reinforcement learning (specifically, Q-learning) and a Bayesian decision model to route packets.
-
-. . .
 
 \small{
 1. Each node maintains a simple lookup table containing information on neighbors expected delivery rate (based on previous actions) and power constraints.

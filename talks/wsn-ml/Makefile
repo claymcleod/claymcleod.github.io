@@ -6,4 +6,9 @@ pdf:
 revealjs:
 	pandoc -t revealjs --standalone --section-divs \
 		--variable theme="white" --variable transition="linear" \
-		--slide-level 2 --variable revealjs-url=assets/reveal.js slides.md -o slides.html
+		--variable revealjs-url=assets/reveal.js slides.md -o slides.html
+
+slideous:
+	pandoc -t slideous --standalone --section-divs \
+		--variable theme="white" --variable transition="linear" \
+	 	--slide-level 2 --variable slideous-url=assets/slideous slides.md -o slides.html
