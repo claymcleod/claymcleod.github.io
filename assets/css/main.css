@@ -509,6 +509,9 @@
 			ul.icons li {
 				display: inline-block;
 				padding: 0.675em 0.5em;
+				margin-left: 10px;
+				margin-right: 10px;
+				text-align: center;
 			}
 
 				ul.icons li a {
@@ -700,7 +703,7 @@
 		max-width: 100%;
 		min-width: 27em;
         width: 600px;
-		padding: 4.5em 3em 3em 3em ;
+		padding: 4.5em 1em 1em 1em ;
 		background: #ffffff;
 		border-radius: 4px;
 		cursor: default;
