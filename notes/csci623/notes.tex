@@ -1,0 +1,77 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsfonts}
+\usepackage{enumitem}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+
+\title{CSCI 632 Notes}
+\author{Clay L. McLeod}
+
+\begin{document}
+\maketitle
+
+\section{Machine Learning Overview}
+
+\subsection{Supervised Learning}
+
+An \textbf{observation} is a $d$-dimensional vector $X$ such that $X \in \mathbb{R}^{d}$. 
+\\
+
+The unknown nature of observation is called a \textbf{class}. We denote it by $Y$ where $y \in \{1, 2, ..., M\}$. For the purpose of this course, only discrete classes are considered (no regression).
+\\
+
+The goal is to create a function $g(x): \mathbb{R}^{d} \rightarrow \{1, ..., M\}$ $g(x)$ one's guess of $y$ given $x$. The classifier is $g(x)$. If $g(x) \neq y$.
+\\
+
+\textbf{Questions}: 
+
+\begin{enumerate}[noitemsep]
+\item How does one construct a good classifier?
+\item How good can a classifier be?
+\item Is classifier $A$ better than classifier $B$?
+\item Can we estimate how good a classifier can be?
+\item What is the best classifier?
+\end{enumerate}
+    
+The answer to all of these questions is yes: there are ways to find an upper bound on the performance of each algorithm and evaluate it empircally.
+
+\subsection{Unsupervised Learning}
+
+Same definition for an observation, except we don't have labels for the class in $X$. What approaches might this help us tackle?
+
+\begin{itemize}[noitemsep]
+\item Clustering
+\item Dimensionality reduction
+\end{itemize}
+
+\textbf{Clustering}\\
+
+Unsupervised learning is directly related supervised learning. For instance: feature selection is probably the most important part of designing Machine Learning algorithms. Unsupervised learning helps us find good features for supervised learning algorithms.\\
+
+\textbf{Dimensionality reduction}\\
+
+As you increase the number of dimensions, you loss the ability to distinguish between two examples. Also, run time increases exponentially.
+
+\subsection{Semisupervised Learning}
+
+Partially labelled data where we try to gain some intuition. Usually involves a cost function instead of a solution set.
+
+
+\subsection{References}
+
+\begin{enumerate}[noitemsep]
+\item \textit{A Probability Theory of Pattern Recognition} for Theoretical Design
+\item \textit{Machine Learning} for History of ML
+\item \textit{The Elements of Statistical Learning} for Statistical Vantagepoint
+\item \textit{Pattern Recognition and Machine Learning} (Textbook)
+\item \textit{Kernel Methods for Pattern Analysis} for Kernel Methods
+\end{enumerate}
+
+
+
+
+
+
+
+
+\end{document}
