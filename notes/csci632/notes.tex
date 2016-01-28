@@ -4,8 +4,10 @@
 \usepackage{enumitem}
 \usepackage[a4paper, total={6in, 8in}]{geometry}
 
-\title{CSCI 632 Notes}
+\title{\textbf{CSCI 632 Notes}}
 \author{Clay L. McLeod}
+
+\newcommand{\aside}[1]{\noindent\textbf{\underline{#1}}}
 
 \begin{document}
 \maketitle
@@ -23,8 +25,7 @@ The unknown nature of observation is called a \textbf{class}. We denote it by $Y
 The goal is to create a function $g(x): \mathbb{R}^{d} \rightarrow \{1, ..., M\}$ $g(x)$ one's guess of $y$ given $x$. The classifier is $g(x)$. If $g(x) \neq y$.
 \\
 
-\textbf{Questions}: 
-
+\aside{Questions} 
 \begin{enumerate}[noitemsep]
 \item How does one construct a good classifier?
 \item How good can a classifier be?
@@ -37,19 +38,13 @@ The answer to all of these questions is yes: there are ways to find an upper bou
 
 \subsection{Unsupervised Learning}
 
-Same definition for an observation, except we don't have labels for the class in $X$. What approaches might this help us tackle?
+Same definition for an observation, except we don't have labels for the class in $X$. What approaches might this help us tackle? \\
 
-\begin{itemize}[noitemsep]
-\item Clustering
-\item Dimensionality reduction
-\end{itemize}
+\aside{Clustering} \\
 
-\textbf{Clustering}\\
+Unsupervised learning is directly related supervised learning. For instance: feature selection is probably the most important part of designing Machine Learning algorithms. Unsupervised learning helps us find good features for supervised learning algorithms. \\
 
-Unsupervised learning is directly related supervised learning. For instance: feature selection is probably the most important part of designing Machine Learning algorithms. Unsupervised learning helps us find good features for supervised learning algorithms.\\
-
-\textbf{Dimensionality reduction}\\
-
+\aside{Dimensionality reduction} \\
 As you increase the number of dimensions, you loss the ability to distinguish between two examples. Also, run time increases exponentially.
 
 \subsection{Semisupervised Learning}
@@ -67,11 +62,75 @@ Partially labelled data where we try to gain some intuition. Usually involves a 
 \item \textit{Kernel Methods for Pattern Analysis} for Kernel Methods
 \end{enumerate}
 
+\section{Probability Review}
 
+In order to correctly analyze machine learning models and their correctness, we should first address some basic concepts in probability.
+\\
 
+\textbf{Definition}: A probability space has 3 components.
+\begin{enumerate}[noitemsep]
+\item A sample space, $\Omega$, which is a set of all of the possible outcomes of a random process.
+\item A family of sets, $\Im$ representing the allowable events, where each set in $\Im$ is a subset of $\Omega$. $\Im$ is a powerset of $\Omega$.
+\item A probability function $P_r: \Im \rightarrow R$ satisfying
+\begin{enumerate}[noitemsep]
+\item $\forall E \in \Im, 0 \le P_r(E) \le 1$
+\item $P_r(\Omega) = 1$
+\item $P_r(\bigcup\limits_{i \ge 1} E_{i}) = \sum\limits_{i \ge 1}P_r(E_i)$ if the RVs are independent.
+\end{enumerate}
+\end{enumerate}
 
+\textbf{Example}: toss two dice
 
+\begin{itemize}
+\item $\Omega = \{(1, 1), (1, 2), \cdots, (6, 6)\}$
+\item $\Im = \{\cdots\} = |\Im| = 2^{36}$
+\item $P \rightarrow R$
+\begin{itemize}
+\item $P((a, b)) = \frac{1}{36}, 1 \le a, b \le 6$
+\item $P(E) = \sum \limits_{(x, y) \in E} P((x, y)) = |E| \cdot \frac{1}{36}$
+\end{itemize}
+\end{itemize}
 
+\aside{Lemma (Union bound)} \\
+\textit{Given}: $\forall E_1, E_2 \subset \Omega$
+\\
+\textit{Derived}: $P(E_1 \bigcup E_2) = P(E_1) + P(E_2) - P (E_1 \bigcap E_2) \Rightarrow P(E_1 \bigcup E_2) \le P(E_1) + P(E_2)$
+\\ \\
+\aside{Lemma (Independence)}  \\
+\textit{Given}: $\forall$ finite or countably infinite sequence of events $E_1, E_2, \cdots$
+\\
+\textit{Derived}:$P_r(\bigcup\limits_{i \ge 1} E_{i}) = \sum\limits_{i \ge 1}P_r(E_i)$ 
+\\ \\
+\aside{Lemma (Inclusion-Exclusion principle)} \\
+\textit{Given}: Let $E_1, \cdots, E_n$ be any of $n$ events.
+\\
+\textit{Derived}: $P(\bigcup \limits_{i=1}^{n} E_i) = \sum\limits_{i=1}^{n} P(E_i) - \sum\limits_{i < j} P(E_i \bigcap E_j) + \sum\limits_{i < j < k} P(E_i \bigcap E_j \bigcap E_k) \cdots$
+\\ \\
+\aside{Definition} \\
+Two events $E$ and $F$ are independent if and only if \[P(E \bigcap F) = P(E) \cdot P(F)\] or, more generally the probability that \textit{all} the events will happen is the same as the probability that \textit{each} event will happened multiplied together.
+\\ \\
+\textbf{Note}: Independence $\neq$ uncorrelated.
+\\ \\
+\aside{Definition} \\
+The conditional probability that the event $E$ occurs given that event $F$ occurs is \[P(E | F) = \frac{P(E \bigcap F)}{P(F)}\] or, written another way, \[P(E \bigcap F) = P(E | F) \cdot P(F)\]However, \[P(E | F) = P(E)\] when $E$ and $F$ are independent. \\ \\
 
+\aside{Theorem (Law of total probability)} \\
 
+Let $E_1, \cdots, E_n$ be mutually disjoint elements in $\Omega$. \\ \\
+
+\aside{Theorem (Bayes' Law)} \\
+
+Assume that $E_1, \cdots, E_n$ are mutually disjoint sets such that \[\bigcup \limits_{i=1}^{n} = E\]Then \[P(E_j | B) = \frac{P(B | E_j) \cdot P(E_j)}{\sum \limits_{i=1}^{n} P(B | E_i) \cdot P(E_i)}\]This is proven by the combination of the law of conditional probability on the top and the law of total probability on the bottom.
+\\ \\
+
+\aside{Example}
+\\ \\
+Two fair coins, biased coin($P(H) = \frac{2}{3})$.  Assume that the output is \texttt{HHT}. What is the probability that the first coin was the biased coin?
+\\ \\
+\begin{itemize}
+\item $B$ = \texttt{HHT}
+\item $E_i$ = ith coin toss is biased, $P(E_i) = \frac{1}{3}$.
+\item $P(E_1 | B) = \frac{P(B | E_1) \cdot P(E_1)}{P(B)}$
+
+\end{itemize}
 \end{document}
