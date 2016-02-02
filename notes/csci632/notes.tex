@@ -8,25 +8,20 @@
 \title{\textbf{CSCI 632 Notes}}
 \author{Clay L. McLeod}
 
-\newcommand{\aside}[1]{\noindent\textbf{\underline{#1}}}
+\newcommand{\skln}{\\[\baselineskip]}
+\newcommand{\aside}[1]{\noindent\textbf{\underline{#1}}\skln}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
 
 \begin{document}
 \maketitle
 
 \section{Machine Learning Overview}
 
-\subsection{Supervised Learning}
+This class will mainly be focused on the theoretical underpinnings of machine learning. We will be by answering many questions about the validity of machine learning models, such as:
 
-An \textbf{observation} is a $d$-dimensional vector $X$ such that $X \in \mathbb{R}^{d}$. 
-\\
-
-The unknown nature of observation is called a \textbf{class}. We denote it by $Y$ where $y \in \{1, 2, ..., M\}$. For the purpose of this course, only discrete classes are considered (no regression).
-\\
-
-The goal is to create a function $g(x): \mathbb{R}^{d} \rightarrow \{1, ..., M\}$ $g(x)$ one's guess of $y$ given $x$. The classifier is $g(x)$. If $g(x) \neq y$.
-\\
-
-\aside{Questions} 
 \begin{enumerate}[noitemsep]
 \item How does one construct a good classifier?
 \item How good can a classifier be?
@@ -35,24 +30,42 @@ The goal is to create a function $g(x): \mathbb{R}^{d} \rightarrow \{1, ..., M\}
 \item What is the best classifier?
 \end{enumerate}
     
-The answer to all of these questions is yes: there are ways to find an upper bound on the performance of each algorithm and evaluate it empircally.
+The answer to all of these questions is yes --- there are ways to find an upper bound on the performance of each algorithm and evaluate it empirically. The inner workings of these algorithms will be explained later in the course.
+
+Before discussing the topic of machine learning in general, it will be useful to give a brief overview of the facets of machine learning as it relates to this class. There are three main areas of machine learning: (1) supervised learning (2) unsupervised learning (3) semi-supervised learning.
+
+\subsection{Supervised Learning}
+
+Supervised learning deals with mapping known inputs to known outputs. Below are some definitions imperative to understanding supervised machine learning.
+
+\begin{itemize}[noitemsep]
+\item An \textbf{observation} is a $d$-dimensional vector $X$ such that $X \in \mathbb{R}^{d}$. In supervised learning, $X$ is a known variable.
+\item A \textbf{class} is the unknown nature of an observation. We denote it by $Y$ where $Y_i \in \{1, 2, ..., M\}$ maps to each input vector $X_i$. In supervised learning, $Y$ is a known variable.
+\begin{itemize}
+\item \textit{Note:} For the purpose of this course, only discrete classes are considered (no regression).
+\end{itemize}
+\item A \textbf{classifier} is a function $g(X): \mathbb{R}^{d} \rightarrow \{1, ..., M\}$. $g(X)$ is the classifier's estimation of $Y$ given $X$ The classifier is $g(X)$. If $g(X) \neq Y$.
+\end{itemize}
 
 \subsection{Unsupervised Learning}
 
-Same definition for an observation, except we don't have labels for the class in $X$. What approaches might this help us tackle? \\
+Unsupervised learning is similar in that $X$ and $g(X)$ all have the same definitions. However, there is one difference for $Y$: the class labels are not known. This type of learning helps us find structure in the data rather than learn the structure in the data. 
+
+Unsupervised learning is directly related supervised learning. For instance, feature selection is probably the most important part of designing machine learning algorithms. Unsupervised learning helps us find good features for supervised learning algorithms. 
+
+Some approaches that we will cover to unsupervised machine learning are:
 
 \subsubsection{Clustering}
 
-Unsupervised learning is directly related supervised learning. For instance: feature selection is probably the most important part of designing Machine Learning algorithms. Unsupervised learning helps us find good features for supervised learning algorithms. \\
+Imposing the input data $X$ into $n$ different clusters. This is useful when trying to find structure within the data.
 
 \subsubsection{Dimensionality reduction}
 
-As you increase the number of dimensions, you loss the ability to distinguish between two examples. Also, run time increases exponentially.
+As you increase the number of dimensions, you loss the ability to distinguish between two examples. Also, run time increases exponentially. Thus, it is useful to try to condense the information in a dataset to only that which is pertinent.
 
 \subsection{Semisupervised Learning}
 
-Partially labelled data where we try to gain some intuition. Usually involves a cost function instead of a solution set.
-
+Partially labelled data where we try to gain some intuition. Usually involves a cost function instead of a solution set. This type of algorithm learns as it goes along and makes adjustments based on its performance.
 
 \subsection{References}
 
@@ -66,9 +79,10 @@ Partially labelled data where we try to gain some intuition. Usually involves a 
 
 \section{Probability Review}
 
-In order to correctly analyze machine learning models and their correctness, we should first address some basic concepts in probability.
-\\
+\subsection{Basic definitions in probability}
 
+In order to correctly analyze machine learning models and their correctness, we should first address some basic concepts in probability.
+\skln
 \textbf{Definition}: A probability space has 3 components.
 \begin{enumerate}[noitemsep]
 \item A sample space, $\Omega$, which is a set of all of the possible outcomes of a random process.
@@ -81,7 +95,7 @@ In order to correctly analyze machine learning models and their correctness, we 
 \end{enumerate}
 \end{enumerate}
 
-\textbf{Example}: toss two dice
+\noindent \textbf{Example}: toss two dice
 
 \begin{itemize}
 \item $\Omega = \{(1, 1), (1, 2), \cdots, (6, 6)\}$
@@ -93,42 +107,46 @@ In order to correctly analyze machine learning models and their correctness, we 
 \end{itemize}
 \end{itemize}
 
-\subsection{Lemma (Union bound)}
-\textit{Given}: $\forall E_1, E_2 \subset \Omega$
-\\
-\textit{Derived}: $P(E_1 \bigcup E_2) = P(E_1) + P(E_2) - P (E_1 \bigcap E_2) \Rightarrow P(E_1 \bigcup E_2) \le P(E_1) + P(E_2)$
-\\ \\
-\subsection{Lemma (Independence)} 
-\textit{Given}: $\forall$ finite or countably infinite sequence of events $E_1, E_2, \cdots$
-\\
-\textit{Derived}:$P_r(\bigcup\limits_{i \ge 1} E_{i}) = \sum\limits_{i \ge 1}P_r(E_i)$ 
-\\ \\
-\subsection{Lemma (Inclusion-Exclusion principle)} 
-\textit{Given}: Let $E_1, \cdots, E_n$ be any of $n$ events.
-\\
-\textit{Derived}: $P(\bigcup \limits_{i=1}^{n} E_i) = \sum\limits_{i=1}^{n} P(E_i) - \sum\limits_{i < j} P(E_i \bigcap E_j) + \sum\limits_{i < j < k} P(E_i \bigcap E_j \bigcap E_k) \cdots$
-\\ \\
-\aside{Definition} \\
+\subsection{Lemmas and Theorems}
 
-Two events $E$ and $F$ are independent if and only if \[P(E \bigcap F) = P(E) \cdot P(F)\] or, more generally the probability that \textit{all} the events will happen is the same as the probability that \textit{each} event will happened multiplied together.
-\\ \\
+\subsubsection{Independence}
+
+Two events $E$ and $F$ are independent if and only if \[P(E \bigcap F) = P(E) \cdot P(F)\] or, more generally the probability that \textit{all} the events will happen is the same as the probability that \textit{each} event will happened multiplied together. Independence essentially means that the outcomes each either event does not affect the other.
+\skln
 \textbf{Note}: Independence $\neq$ uncorrelated.
-\\ \\
-\aside{Definition} \\
 
-The conditional probability that the event $E$ occurs given that event $F$ occurs is \[P(E | F) = \frac{P(E \bigcap F)}{P(F)}\] or, written another way, \[P(E \bigcap F) = P(E | F) \cdot P(F)\]However, \[P(E | F) = P(E)\] when $E$ and $F$ are independent. \\ \\
+\begin{lemma}[Independence]
+For all finite or countably infinite sequence of independent events $E_1, E_2, \cdots, E_n$, we can compute the union of the probability of each event by the formula \[P_r(\bigcup\limits_{i \ge 1} E_{i}) = \sum\limits_{i \ge 1}P_r(E_i)\]Succinctly, the probability of all of the events happening is the combination of the probability of each event happening.
+\end{lemma}
 
-\subsection{Theorem (Law of total probability)}
+\begin{lemma}[Union bound]
 
-Let $E_1, \cdots, E_n$ be mutually disjoint elements in $\Omega$. \[P(A) = \sum \limits_{n} P(A | E_n) \cdot P(E_n)\] \\ \\
+For all events $E_1, E_2 \subset \Omega$, we know that \[P(E_1 \bigcup E_2) = P(E_1) + P(E_2) - P (E_1 \bigcap E_2)\] or \[P(E_1 \bigcup E_2) \le P(E_1) + P(E_2)\]Succinctly, we know that the probability that both $E_1$ and $E_2$ occur together is less than or equal to the probability that $E_1$ and $E_2$ occur independently of one another.
+\end{lemma}
 
-\subsection{Theorem (Bayes' Law)}
+\begin{lemma}[Inclusion-Exclusion Principle]
+Let $E_1, \cdots, E_n$ be any of $n$ events, we derive that \[P(\bigcup \limits_{i=1}^{n} E_i) = \sum\limits_{i=1}^{n} P(E_i) - \sum\limits_{i < j} P(E_i \bigcap E_j) + \sum\limits_{i < j < k} P(E_i \bigcap E_j \bigcap E_k) \cdots\]
+\end{lemma}
 
-Assume that $E_1, \cdots, E_n$ are mutually disjoint sets such that \[\bigcup \limits_{i=1}^{n} E_n = E\]Then \[P(E_j | B) = \frac{P(B | E_j) \cdot P(E_j)}{\sum \limits_{i=1}^{n} P(B | E_i) \cdot P(E_i)}\]This is proven by the combination of the law of conditional probability on the top and the law of total probability on the bottom.
-\\ \\
+Take for instance the case of three events, $A$, $B$, and $C$. The equation for computing the union of these three events is \[P(A \bigcup B \bigcup C) = P(A) + P(B) + P(C) - P(A \bigcap B) - P(A \bigcap C) - P(B \bigcap C) + P(A \bigcap B \bigcap C)\]This lemma is nothing more than an understanding of how to combine an arbitrary number of states in a union.
 
+\begin{theorem}[Conditional Probability]
+The probability that the event $E$ occurs given as a base truth that event $F$ occurs is \[P(E | F) = \frac{P(E \bigcap F)}{P(F)}\] or, written another way, \[P(E \bigcap F) = P(E | F) \cdot P(F)\]Succinctly, the probability that E occurs given that F occurred is the same as restricting your probabilistic universe to all outcomes where F occurred and taking the ratio of all outcomes where E occurred over that sample space.
+\end{theorem}
+
+This axiom is a foundational lemma of machine learning.  Note that $P(E | F) = P(E)$ when $E$ and $F$ are independent.
+
+\begin{theorem}[Law of total probability]
+Let $E_1, \cdots, E_n$ be mutually disjoint elements in $\Omega$. We can define the total probability that event $A$ occurred as \[P(A) = \sum \limits_{n} P(A | E_n) \cdot P(E_n)\]Succinctly, we can slice our sample space into $n$ segments and combine together each probability when we know the event $E_i$ happened. In this way, we cover our whole sample space and, thus, get the whole probability of $A$.
+\end{theorem}
+
+\begin{theorem}[Bayes' Rule]
+
+Assume that $E_1, \cdots, E_n$ are mutually disjoint sets such that $\bigcup \limits_{i=1}^{n} E_n = E$. Then \[P(E_j | B) = \frac{P(B | E_j) \cdot P(E_j)}{\sum \limits_{i=1}^{n} P(B | E_i) \cdot P(E_i)}\]Succinctly, we restrict our probability universe to all outcomes where B happened (like in the Law of total probability). Next, we evaluate the ratio of when both $E_j$ and $B$ happen to our previously defined universe.
+\end{theorem}
+
+\textit{Note}: the bottom is merely the law of total probability. \skln
 \aside{Example}
-\\ \\
 Two fair coins, biased coin($P(H) = \frac{2}{3})$.  Assume that the output is \texttt{HHT}. What is the probability that the first coin was the biased coin?
 \\ \\
 \begin{itemize}
@@ -139,17 +157,17 @@ Two fair coins, biased coin($P(H) = \frac{2}{3})$.  Assume that the output is \t
 
 \subsection{Random Variables}
 
-\subsubsection{Bernoulli}
+The different types of RVs are left to previous courses. However, we will very briefly review two main RVs that are useful in this course. For the expectation, standard deviation, or any other characteristics of these RVs, google them.
 
-\aside{Example} Toss a fair coin where $p$ is the probability that the outcome is heads. Written as \[X \sim\text{ Bernouilli}(p)\]
+\subsubsection{Bernoulli Distribution}
+Toss a fair coin where $p$ is the probability that the outcome is heads. Written as \[X \sim\text{ Bernouilli}(p)\]
 
-\subsubsection{Binomial}
-
-\aside{Example} Number of heads in $n$ coin tosses. Written as \[X \sim\text{ Binomial}(n, p)\]
+\subsubsection{Binomial Distribution}
+Number of heads in $n$ coin tosses. Written as \[X \sim\text{ Binomial}(n, p)\]
 
 \section{Supervised Learning}
 
-Given observations \[X_i \in \mathbb{R}^d; i=1, \cdots, n\] and their classes $y_i$ (discrete) such that \[y_i \in {1, \cdots, M}\]Find \[g : \mathbb{R}^d \rightarrow \{1, \cdots, M\}\] that can predict the class of $X$. That supervised function is defined as \[\Im = \{\text{set of funcs } \mathbb{R}^d \rightarrow \{1, \cdots, M\}\}\].
+Given observations $X_i \in \mathbb{R}^d; i=1, \cdots, n$ and their classes $Y_i$ (discrete) such that $Y_i \in {1, \cdots, M}$. Find \[g : \mathbb{R}^d \rightarrow \{1, \cdots, M\}\] that can predict the class of $X$. That supervised function is defined as \[\Im = \{\text{set of funcs } \mathbb{R}^d \rightarrow \{1, \cdots, M\}\}\].
 
 \subsection{Performance of a classifier}
 
