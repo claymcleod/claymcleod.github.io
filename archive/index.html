@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Clay McLeod</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    </head>
+    <body class="is-loading">
+        <div id="wrapper">
+            <section id="main">
+                <header>
+                    <span class="avatar"><img src="assets/css/images/avatar.jpg" alt="" height="225" width="225"/></span>
+                    <h1>Clay McLeod</h1>
+                    <p>Data Scientist</p>
+                </header>
+
+                <footer>
+                    <ul class="icons">
+                        <li>
+                          <a href="http://claymcleod.github.io/cv.pdf" class="fa-graduation-cap" onclick="ga('send','event','Click', 'click', 'Resume')">Resume</a>
+                          CV
+                        </li>
+                        <li>
+                          <a href="http://claymcleod.github.io/papers" class="fa-file-word-o" onclick="ga('send','event','Click', 'click', 'Resume')">Papers</a>
+                          Papers
+                        </li>
+                        <li>
+                          <a href="http://claymcleod.github.io/talks" class="fa-file-powerpoint-o" onclick="ga('send','event','Click', 'click', 'Talks')">Talks</a>
+                          Talks
+                        </li>
+                        <li>
+                          <a href="http://claymcleod.github.io/projects" class="fa-code" onclick="ga('send','event','Click', 'click', 'Projects')">Projects</a>
+                          Data
+                        </li>
+                        <li>
+                          <a href="http://linkedin.com/in/claymcleod33" class="fa-linkedin" onclick="ga('send','event','Click', 'click', 'LinkedIn')">LinkedIn</a>
+                          Profile
+                        </li>
+                    </ul>
+                </footer>
+            </section>
+
+            <footer id="footer">
+                <ul class="copyright">
+                    <li>&copy; Clay McLeod</li>
+                </ul>
+            </footer>
+
+        </div>
+
+        <!-- Scripts -->
+        <!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+        <script>
+if ('addEventListener' in window) {
+    window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+    document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+}
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-40368986-7', 'auto');
+ga('send', 'pageview');
+
+
+        </script>
+
+    </body>
+</html>
